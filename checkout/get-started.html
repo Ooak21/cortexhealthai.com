@@ -464,12 +464,16 @@ async function startPayment(clientId, ctx) {
         return;
       }
       if (paymentIntent && paymentIntent.status === 'succeeded') {
-        // Idempotent server-side confirm: marks the lead build_paid + seeds ops queue.
-        fetch(`${SB_URL}/functions/v1/cortexhealth-stripe`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', apikey: ANON },
-          body: JSON.stringify({ action: 'confirm', payment_intent_id: paymentIntent.id, client_id: clientId }),
-        }).catch(() => {});
+        // Await the CRM flip so it completes before we navigate away (browsers cancel
+        // in-flight fetches on redirect). Idempotent server-side, so a retry is safe.
+        try {
+          await fetch(`${SB_URL}/functions/v1/cortexhealth-stripe`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', apikey: ANON },
+            body: JSON.stringify({ action: 'confirm', payment_intent_id: paymentIntent.id, client_id: clientId }),
+            keepalive: true,
+          });
+        } catch (_) { /* payment already succeeded; ops can re-confirm from the CRM */ }
         location.href = `/checkout/success.html?id=${encodeURIComponent(clientId)}&tier=${encodeURIComponent(fee.slot)}&path=${ctx.path}&paid=1`;
       } else {
         showPayErr('Payment is processing. If you are charged, ops will confirm by email.');
