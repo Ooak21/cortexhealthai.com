@@ -1,41 +1,41 @@
 ---
 name: IBS Dark Cinematic
 colors:
-  bg: "#000000"
-  surface: "#0a0a0f"
-  surface-2: "#121317"
-  border: "#2c2e38"
-  text: "#f8f9fc"
-  muted: "#8a8f9e"
-  accent: "#3b82f6"
-  gold: "#f59e0b"
-  emerald: "#10b981"
+ bg: "#000000"
+ surface: "#0a0a0f"
+ surface-2: "#121317"
+ border: "#2c2e38"
+ text: "#f8f9fc"
+ muted: "#8a8f9e"
+ accent: "#3b82f6"
+ gold: "#f59e0b"
+ emerald: "#10b981"
 typography:
-  display:
-    fontFamily: "Geist Mono, Inter, system-ui, sans-serif"
-    fontWeight: 600
-    letterSpacing: "-0.04em"
-  headline:
-    fontFamily: "Inter, system-ui, sans-serif"
-    fontWeight: 600
-    letterSpacing: "-0.02em"
-  body:
-    fontFamily: "Inter, system-ui, sans-serif"
-    fontWeight: 400
-  mono:
-    fontFamily: "'Geist Mono', 'JetBrains Mono', monospace"
+ display:
+ fontFamily: "Geist Mono, Inter, system-ui, sans-serif"
+ fontWeight: 600
+ letterSpacing: "-0.04em"
+ headline:
+ fontFamily: "Inter, system-ui, sans-serif"
+ fontWeight: 600
+ letterSpacing: "-0.02em"
+ body:
+ fontFamily: "Inter, system-ui, sans-serif"
+ fontWeight: 400
+ mono:
+ fontFamily: "'Geist Mono', 'JetBrains Mono', monospace"
 rounded:
-  sm: "0.25rem"
-  DEFAULT: "0.5rem"
-  md: "0.75rem"
-  lg: "1rem"
-  xl: "1.5rem"
-  full: "9999px"
+ sm: "0.25rem"
+ DEFAULT: "0.5rem"
+ md: "0.75rem"
+ lg: "1rem"
+ xl: "1.5rem"
+ full: "9999px"
 spacing:
-  unit: "8px"
+ unit: "8px"
 elevation:
-  card: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
-  deep: "0 40px 110px -28px rgb(0 0 0 / 0.92)"
+ card: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
+ deep: "0 40px 110px -28px rgb(0 0 0 / 0.92)"
 ---
 
 # IBS Dark Cinematic
@@ -44,7 +44,7 @@ The visual and interaction language for Innovative Blockchain Solutions at the p
 
 ## Brand & Style
 
-"Dark cinematic premium" — the aesthetic of high-stakes control rooms, mission operations, and serious financial infrastructure. Deep blacks, restrained but electric accents (cyan/blue neon + warm gold), layered depth, and filmic treatments.
+"Dark cinematic premium" - the aesthetic of high-stakes control rooms, mission operations, and serious financial infrastructure. Deep blacks, restrained but electric accents (cyan/blue neon + warm gold), layered depth, and filmic treatments.
 
 Personality: Confident, precise, slightly futuristic, trustworthy, and uncompromising. It should feel like the interface an autonomous economic agent would actually use to move real capital and data.
 
@@ -120,7 +120,7 @@ Generous but machined rounding. Nothing overly playful or consumer-soft. The lan
 - Introduce bright, playful, or low-contrast consumer colors
 - Flatten the depth or remove glass/shadow treatments
 - Use thin weights or low legibility treatments in data, terminal, or agent-facing contexts
-- Treat this as generic "dark fintech SaaS" — the cinematic, agentic control-room quality is deliberate and differentiating
+- Treat this as generic "dark fintech SaaS" - the cinematic, agentic control-room quality is deliberate and differentiating
 
 This DESIGN.md is the single source of truth for visual identity across the entire IBS platform. Any agent generating descriptions, interfaces, or content for Innovative Blockchain Solutions must respect it.
 

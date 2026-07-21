@@ -3,96 +3,96 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Get Started — CORTEX Health AI</title>
+<title>Get Started . CORTEX Health AI</title>
 <meta name="description" content="Start your CORTEX Health AI practice build. Intake feeds the IBS CRM ops queue.">
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #000; --surface: #0a0a0f; --surface2: #121317;
-  --border: #2c2e38; --text: #f8f9fc; --muted: #8a8f9e; --dim: #5a5f72;
-  --accent: #3b82f6; --accent2: #60a5fa; --red: #ef4444; --green: #10b981;
+ --bg: #000; --surface: #0a0a0f; --surface2: #121317;
+ --border: #2c2e38; --text: #f8f9fc; --muted: #8a8f9e; --dim: #5a5f72;
+ --accent: #3b82f6; --accent2: #60a5fa; --red: #ef4444; --green: #10b981;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body {
-  background: var(--bg); color: var(--text);
-  font-family: 'Inter', system-ui, sans-serif;
-  min-height: 100vh;
-  display: flex; align-items: flex-start; justify-content: center;
-  padding: 2rem 1rem 3rem;
-  -webkit-font-smoothing: antialiased;
-  line-height: 1.5;
-  background-image:
-    radial-gradient(ellipse 60% 40% at 50% 0%, rgba(59,130,246,0.12), transparent 55%);
+ background: var(--bg); color: var(--text);
+ font-family: 'Inter', system-ui, sans-serif;
+ min-height: 100vh;
+ display: flex; align-items: flex-start; justify-content: center;
+ padding: 2rem 1rem 3rem;
+ -webkit-font-smoothing: antialiased;
+ line-height: 1.5;
+ background-image:
+ radial-gradient(ellipse 60% 40% at 50% 0%, rgba(59,130,246,0.12), transparent 55%);
 }
 .card {
-  width: 100%; max-width: 560px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 2.25rem 2rem 1.75rem;
-  box-shadow: 0 40px 110px -28px rgb(0 0 0 / 0.92);
+ width: 100%; max-width: 560px;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: 20px;
+ padding: 2.25rem 2rem 1.75rem;
+ box-shadow: 0 40px 110px -28px rgb(0 0 0 / 0.92);
 }
 .brand { display: flex; align-items: center; gap: 0.65rem; margin-bottom: 1rem; }
 .brand img { width: 28px; height: 28px; }
 .brand-name { font-size: 0.78rem; font-weight: 600; }
 .brand-sep { color: var(--border); }
 .brand-badge {
-  font-family: 'Geist Mono', monospace;
-  font-size: 0.58rem; font-weight: 500; color: var(--accent2);
-  letter-spacing: 0.1em; text-transform: uppercase;
+ font-family: 'Geist Mono', monospace;
+ font-size: 0.58rem; font-weight: 500; color: var(--accent2);
+ letter-spacing: 0.1em; text-transform: uppercase;
 }
 h1 { font-size: 1.55rem; font-weight: 700; letter-spacing: -0.03em; line-height: 1.15; margin: 0.4rem 0 0.4rem; }
 .sub { font-size: 0.88rem; color: var(--muted); margin-bottom: 1.4rem; line-height: 1.55; }
 .tier-pill {
-  display: inline-flex; align-items: center; gap: 0.45rem;
-  padding: 0.4rem 0.8rem;
-  font-family: 'Geist Mono', monospace;
-  font-size: 0.68rem; font-weight: 500;
-  color: var(--accent2);
-  background: rgba(59,130,246,0.1);
-  border: 1px solid rgba(59,130,246,0.3);
-  border-radius: 999px;
-  margin-bottom: 1.25rem;
+ display: inline-flex; align-items: center; gap: 0.45rem;
+ padding: 0.4rem 0.8rem;
+ font-family: 'Geist Mono', monospace;
+ font-size: 0.68rem; font-weight: 500;
+ color: var(--accent2);
+ background: rgba(59,130,246,0.1);
+ border: 1px solid rgba(59,130,246,0.3);
+ border-radius: 999px;
+ margin-bottom: 1.25rem;
 }
 .tier-pill .dot { width: 5px; height: 5px; background: var(--accent2); border-radius: 50%; }
 label { display: block; font-size: 0.7rem; font-weight: 500; color: var(--muted); margin-bottom: 6px; letter-spacing: 0.02em; }
 .req { color: var(--red); margin-left: 2px; }
 input, select, textarea {
-  width: 100%; padding: 12px 14px;
-  font-size: 0.9rem; font-family: inherit;
-  color: var(--text);
-  background: #050508;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  outline: none;
-  transition: border-color 0.15s, box-shadow 0.15s;
+ width: 100%; padding: 12px 14px;
+ font-size: 0.9rem; font-family: inherit;
+ color: var(--text);
+ background: #050508;
+ border: 1px solid var(--border);
+ border-radius: 10px;
+ outline: none;
+ transition: border-color 0.15s, box-shadow 0.15s;
 }
 input:focus, select:focus, textarea:focus {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
+ border-color: var(--accent);
+ box-shadow: 0 0 0 3px rgba(59,130,246,0.15);
 }
 input::placeholder { color: var(--dim); }
 .field { margin-bottom: 1rem; }
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem; }
 @media (max-width: 520px) { .grid2 { grid-template-columns: 1fr; } }
 .sms-disclosure {
-  font-size: 0.68rem; color: var(--dim); line-height: 1.55;
-  margin-top: 6px; padding: 0.55rem 0.75rem;
-  background: var(--surface2); border-radius: 8px;
+ font-size: 0.68rem; color: var(--dim); line-height: 1.55;
+ margin-top: 6px; padding: 0.55rem 0.75rem;
+ background: var(--surface2); border-radius: 8px;
 }
 .path-split {
-  margin: 1.15rem 0; padding: 1rem 1.1rem;
-  background: var(--surface2); border: 1px solid var(--border); border-radius: 12px;
+ margin: 1.15rem 0; padding: 1rem 1.1rem;
+ background: var(--surface2); border: 1px solid var(--border); border-radius: 12px;
 }
 .path-split .title { font-size: 0.82rem; font-weight: 600; margin-bottom: 0.45rem; }
 .path-split .desc { font-size: 0.74rem; color: var(--muted); margin-bottom: 0.85rem; line-height: 1.55; }
 .radio-row { display: flex; gap: 0.5rem; }
 .radio-opt {
-  flex: 1; padding: 0.7rem 0.85rem;
-  background: #050508; border: 1.5px solid var(--border);
-  border-radius: 10px; cursor: pointer; transition: all 0.15s;
+ flex: 1; padding: 0.7rem 0.85rem;
+ background: #050508; border: 1.5px solid var(--border);
+ border-radius: 10px; cursor: pointer; transition: all 0.15s;
 }
 .radio-opt input { display: none; }
 .radio-opt .opt-label { font-size: 0.78rem; font-weight: 600; }
@@ -100,154 +100,154 @@ input::placeholder { color: var(--dim); }
 .radio-opt.selected { border-color: var(--accent); background: rgba(59,130,246,0.08); }
 .radio-opt.selected .opt-label { color: var(--accent2); }
 .consent {
-  display: flex; gap: 0.7rem; align-items: flex-start;
-  padding: 1rem 1.1rem; background: var(--surface2);
-  border: 1px solid var(--border); border-radius: 12px; margin: 1.15rem 0;
+ display: flex; gap: 0.7rem; align-items: flex-start;
+ padding: 1rem 1.1rem; background: var(--surface2);
+ border: 1px solid var(--border); border-radius: 12px; margin: 1.15rem 0;
 }
 .consent input[type="checkbox"] {
-  flex-shrink: 0; width: 18px; height: 18px; margin-top: 2px;
-  accent-color: var(--accent); cursor: pointer;
+ flex-shrink: 0; width: 18px; height: 18px; margin-top: 2px;
+ accent-color: var(--accent); cursor: pointer;
 }
 .consent label { font-size: 0.74rem; color: var(--muted); line-height: 1.55; margin: 0; font-weight: 400; }
 .consent label strong { color: var(--text); font-weight: 600; }
 .consent label a { color: var(--accent2); }
 button[type="submit"] {
-  width: 100%; padding: 14px;
-  font-size: 0.9rem; font-weight: 600; font-family: inherit;
-  color: #fff;
-  background: linear-gradient(135deg, var(--accent2), var(--accent), #1d4ed8);
-  border: none; border-radius: 12px; cursor: pointer;
-  transition: all 0.15s; margin-top: 0.3rem;
-  box-shadow: 0 8px 28px rgba(59,130,246,0.3);
+ width: 100%; padding: 14px;
+ font-size: 0.9rem; font-weight: 600; font-family: inherit;
+ color: #fff;
+ background: linear-gradient(135deg, var(--accent2), var(--accent), #1d4ed8);
+ border: none; border-radius: 12px; cursor: pointer;
+ transition: all 0.15s; margin-top: 0.3rem;
+ box-shadow: 0 8px 28px rgba(59,130,246,0.3);
 }
 button[type="submit"]:hover:not(:disabled) {
-  transform: translateY(-1px);
-  box-shadow: 0 12px 36px rgba(59,130,246,0.45);
+ transform: translateY(-1px);
+ box-shadow: 0 12px 36px rgba(59,130,246,0.45);
 }
 button[type="submit"]:disabled { opacity: 0.5; cursor: not-allowed; }
 .security {
-  display: flex; align-items: center; justify-content: center; gap: 0.4rem;
-  margin-top: 0.9rem; font-size: 0.66rem; color: var(--dim);
+ display: flex; align-items: center; justify-content: center; gap: 0.4rem;
+ margin-top: 0.9rem; font-size: 0.66rem; color: var(--dim);
 }
 .footer { margin-top: 1.4rem; text-align: center; font-size: 0.72rem; color: var(--dim); }
 .footer a { color: var(--accent2); }
 .error {
-  margin-top: 0.6rem; padding: 0.7rem 0.9rem;
-  font-size: 0.76rem; color: var(--red);
-  background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.25);
-  border-radius: 10px; display: none;
+ margin-top: 0.6rem; padding: 0.7rem 0.9rem;
+ font-size: 0.76rem; color: var(--red);
+ background: rgba(239,68,68,0.08); border: 1px solid rgba(239,68,68,0.25);
+ border-radius: 10px; display: none;
 }
 .error.show { display: block; }
 .back {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-size: 0.75rem; color: var(--muted); margin-bottom: 1rem;
+ display: inline-flex; align-items: center; gap: 6px;
+ font-size: 0.75rem; color: var(--muted); margin-bottom: 1rem;
 }
 .back:hover { color: #fff; }
 </style>
 </head>
 <body>
 <form class="card" id="intakeForm" novalidate>
-  <a class="back" href="/">← CORTEX Health AI</a>
+ <a class="back" href="/">← CORTEX Health AI</a>
 
-  <div class="brand">
-    <img src="/assets/ibs-hex-logo.png" alt="IBS" width="28" height="28">
-    <span class="brand-name">IBS</span>
-    <span class="brand-sep">·</span>
-    <span class="brand-badge">CORTEX Health AI</span>
-  </div>
+ <div class="brand">
+ <img src="/assets/ibs-hex-logo.png" alt="IBS" width="28" height="28">
+ <span class="brand-name">IBS</span>
+ <span class="brand-sep">|</span>
+ <span class="brand-badge">CORTEX Health AI</span>
+ </div>
 
-  <h1>Start your practice build.</h1>
-  <p class="sub">Tell us about your practice. Intake lands in the IBS CRM immediately so ops can scope your medical-grade CRM / patient OS and send the next step.</p>
+ <h1>Start your practice build.</h1>
+ <p class="sub">Tell us about your practice. Intake lands in the IBS CRM immediately so ops can scope your medical-grade CRM / patient OS and send the next step.</p>
 
-  <div class="tier-pill">
-    <span class="dot"></span>
-    <span id="tierLabel">Growth</span>
-  </div>
+ <div class="tier-pill">
+ <span class="dot"></span>
+ <span id="tierLabel">Growth</span>
+ </div>
 
-  <div class="grid2">
-    <div class="field">
-      <label>Practice / company name<span class="req">*</span></label>
-      <input id="companyName" type="text" required placeholder="Vitality Wellness LLC">
-    </div>
-    <div class="field">
-      <label>Your name<span class="req">*</span></label>
-      <input id="contactName" type="text" required placeholder="Full name">
-    </div>
-  </div>
+ <div class="grid2">
+ <div class="field">
+ <label>Practice / company name<span class="req">*</span></label>
+ <input id="companyName" type="text" required placeholder="Vitality Wellness LLC">
+ </div>
+ <div class="field">
+ <label>Your name<span class="req">*</span></label>
+ <input id="contactName" type="text" required placeholder="Full name">
+ </div>
+ </div>
 
-  <div class="grid2">
-    <div class="field">
-      <label>Work email<span class="req">*</span></label>
-      <input id="email" type="email" required placeholder="you@practice.com">
-    </div>
-    <div class="field">
-      <label>Phone<span class="req">*</span></label>
-      <input id="phone" type="tel" required placeholder="(555) 123-4567">
-    </div>
-  </div>
+ <div class="grid2">
+ <div class="field">
+ <label>Work email<span class="req">*</span></label>
+ <input id="email" type="email" required placeholder="you@practice.com">
+ </div>
+ <div class="field">
+ <label>Phone<span class="req">*</span></label>
+ <input id="phone" type="tel" required placeholder="(555) 123-4567">
+ </div>
+ </div>
 
-  <div class="field">
-    <label>Practice type</label>
-    <select id="practiceType">
-      <option value="">Select…</option>
-      <option>Medspa / aesthetics</option>
-      <option>Weight loss / GLP</option>
-      <option>Wellness / IV</option>
-      <option>Massage / spa</option>
-      <option>Counseling / mental health</option>
-      <option>Dental / ortho</option>
-      <option>Primary care / concierge</option>
-      <option>Multi-location group</option>
-      <option>Other</option>
-    </select>
-  </div>
+ <div class="field">
+ <label>Practice type</label>
+ <select id="practiceType">
+ <option value="">Select…</option>
+ <option>Medspa / aesthetics</option>
+ <option>Weight loss / GLP</option>
+ <option>Wellness / IV</option>
+ <option>Massage / spa</option>
+ <option>Counseling / mental health</option>
+ <option>Dental / ortho</option>
+ <option>Primary care / concierge</option>
+ <option>Multi-location group</option>
+ <option>Other</option>
+ </select>
+ </div>
 
-  <div class="sms-disclosure">
-    By providing your phone number and accepting the Terms below, you agree to receive text messages from Innovative Blockchain Solutions regarding your account, including verification codes and service-related notifications. Msg frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out.
-  </div>
+ <div class="sms-disclosure">
+ By providing your phone number and accepting the Terms below, you agree to receive text messages from Innovative Blockchain Solutions regarding your account, including verification codes and service-related notifications. Msg frequency varies. Msg &amp; data rates may apply. Reply STOP to opt out.
+ </div>
 
-  <div class="path-split">
-    <div class="title">Do you have onboarding assets ready?</div>
-    <div class="desc">Logo, brand colors, current patient list (if migrating), and EHR / PM system name. Ready assets accelerate deployment after payment.</div>
-    <div class="radio-row">
-      <label class="radio-opt" id="optYes">
-        <input type="radio" name="hasAssets" value="true">
-        <div class="opt-label">Yes, ready</div>
-        <div class="opt-sub">I can upload after checkout</div>
-      </label>
-      <label class="radio-opt" id="optNo">
-        <input type="radio" name="hasAssets" value="false">
-        <div class="opt-label">Not yet</div>
-        <div class="opt-sub">Send me the checklist</div>
-      </label>
-    </div>
-  </div>
+ <div class="path-split">
+ <div class="title">Do you have onboarding assets ready?</div>
+ <div class="desc">Logo, brand colors, current patient list (if migrating), and EHR / PM system name. Ready assets accelerate deployment after payment.</div>
+ <div class="radio-row">
+ <label class="radio-opt" id="optYes">
+ <input type="radio" name="hasAssets" value="true">
+ <div class="opt-label">Yes, ready</div>
+ <div class="opt-sub">I can upload after checkout</div>
+ </label>
+ <label class="radio-opt" id="optNo">
+ <input type="radio" name="hasAssets" value="false">
+ <div class="opt-label">Not yet</div>
+ <div class="opt-sub">Send me the checklist</div>
+ </label>
+ </div>
+ </div>
 
-  <div class="consent">
-    <input type="checkbox" id="consent">
-    <label for="consent">
-      <strong>I agree to the Terms of Service and Privacy Policy.</strong>
-      By checking this box and providing my phone number, I consent to receive SMS messages from Innovative Blockchain Solutions for account verification and service notifications. See
-      <a href="https://innovativeblockchainsolutions.live/terms.html" target="_blank" rel="noopener">Terms</a> and
-      <a href="https://innovativeblockchainsolutions.live/privacy.html" target="_blank" rel="noopener">Privacy</a>.
-    </label>
-  </div>
+ <div class="consent">
+ <input type="checkbox" id="consent">
+ <label for="consent">
+ <strong>I agree to the Terms of Service and Privacy Policy.</strong>
+ By checking this box and providing my phone number, I consent to receive SMS messages from Innovative Blockchain Solutions for account verification and service notifications. See
+ <a href="https://innovativeblockchainsolutions.live/terms.html" target="_blank" rel="noopener">Terms</a> and
+ <a href="https://innovativeblockchainsolutions.live/privacy.html" target="_blank" rel="noopener">Privacy</a>.
+ </label>
+ </div>
 
-  <button type="submit" id="submitBtn">Submit &amp; continue</button>
-  <div class="security">Encrypted in transit · Leads route to IBS CRM · We never sell phone numbers</div>
-  <div class="error" id="errorBox"></div>
-  <div class="footer">
-    Not sure which tier? <a href="/#pricing">Compare pricing</a> ·
-    <a href="mailto:support@innovativeblockchainsolutions.live">Email us</a>
-  </div>
+ <button type="submit" id="submitBtn">Submit &amp; continue</button>
+ <div class="security">Encrypted in transit | Leads route to IBS CRM | We never sell phone numbers</div>
+ <div class="error" id="errorBox"></div>
+ <div class="footer">
+ Not sure which tier? <a href="/#pricing">Compare pricing</a> |
+ <a href="mailto:support@innovativeblockchainsolutions.live">Email us</a>
+ </div>
 </form>
 
 <script type="module">
 const TIERS = {
-  starter:      { label: 'CORTEX Health · Core', product: 'Core' },
-  professional: { label: 'CORTEX Health · Growth', product: 'Growth' },
-  enterprise:   { label: 'CORTEX Health · Scale', product: 'Scale' },
-  custom:       { label: 'CORTEX Health · Demand', product: 'Demand' },
+ starter: { label: 'CORTEX Health | Core', product: 'Core' },
+ professional: { label: 'CORTEX Health | Growth', product: 'Growth' },
+ enterprise: { label: 'CORTEX Health | Scale', product: 'Scale' },
+ custom: { label: 'CORTEX Health | Demand', product: 'Demand' },
 };
 
 const SB_URL = 'https://jtifhcvbgxqwlywugvjv.supabase.co';
@@ -258,13 +258,13 @@ const tierKey = TIERS[params.get('tier')] ? params.get('tier') : 'professional';
 document.getElementById('tierLabel').textContent = TIERS[tierKey].label;
 
 const optYes = document.getElementById('optYes');
-const optNo  = document.getElementById('optNo');
+const optNo = document.getElementById('optNo');
 [optYes, optNo].forEach(opt => {
-  opt.addEventListener('click', () => {
-    optYes.classList.toggle('selected', opt === optYes);
-    optNo.classList.toggle('selected', opt === optNo);
-    opt.querySelector('input[type="radio"]').checked = true;
-  });
+ opt.addEventListener('click', () => {
+ optYes.classList.toggle('selected', opt === optYes);
+ optNo.classList.toggle('selected', opt === optNo);
+ opt.querySelector('input[type="radio"]').checked = true;
+ });
 });
 
 const form = document.getElementById('intakeForm');
@@ -272,86 +272,86 @@ const errorBox = document.getElementById('errorBox');
 const submitBtn = document.getElementById('submitBtn');
 
 function showError(msg) {
-  errorBox.textContent = msg;
-  errorBox.classList.add('show');
+ errorBox.textContent = msg;
+ errorBox.classList.add('show');
 }
 function clearError() { errorBox.classList.remove('show'); }
 
 form.addEventListener('submit', async (e) => {
-  e.preventDefault();
-  clearError();
+ e.preventDefault();
+ clearError();
 
-  const company     = document.getElementById('companyName').value.trim();
-  const contactName = document.getElementById('contactName').value.trim();
-  const email       = document.getElementById('email').value.trim();
-  const phone       = document.getElementById('phone').value.trim();
-  const practiceType = document.getElementById('practiceType').value;
-  const consent     = document.getElementById('consent').checked;
-  const hasAssetsRadio = document.querySelector('input[name="hasAssets"]:checked');
+ const company = document.getElementById('companyName').value.trim();
+ const contactName = document.getElementById('contactName').value.trim();
+ const email = document.getElementById('email').value.trim();
+ const phone = document.getElementById('phone').value.trim();
+ const practiceType = document.getElementById('practiceType').value;
+ const consent = document.getElementById('consent').checked;
+ const hasAssetsRadio = document.querySelector('input[name="hasAssets"]:checked');
 
-  if (!company || !contactName || !email || !phone) {
-    showError('Please fill in all required fields.');
-    return;
-  }
-  if (phone.replace(/\D/g, '').length < 10) {
-    showError('Please enter a valid 10-digit phone number.');
-    return;
-  }
-  if (!hasAssetsRadio) {
-    showError('Please tell us if you have onboarding assets ready.');
-    return;
-  }
-  if (!consent) {
-    showError('Please agree to the Terms and SMS consent to continue.');
-    return;
-  }
+ if (!company || !contactName || !email || !phone) {
+ showError('Please fill in all required fields.');
+ return;
+ }
+ if (phone.replace(/\D/g, '').length < 10) {
+ showError('Please enter a valid 10-digit phone number.');
+ return;
+ }
+ if (!hasAssetsRadio) {
+ showError('Please tell us if you have onboarding assets ready.');
+ return;
+ }
+ if (!consent) {
+ showError('Please agree to the Terms and SMS consent to continue.');
+ return;
+ }
 
-  submitBtn.disabled = true;
-  submitBtn.textContent = 'Submitting…';
+ submitBtn.disabled = true;
+ submitBtn.textContent = 'Submitting…';
 
-  const product = TIERS[tierKey].product;
-  const notes = [
-    'Source: cortexhealthai.com',
-    'Product: CORTEX Health AI',
-    `Health tier: ${product}`,
-    practiceType ? `Practice type: ${practiceType}` : null,
-  ].filter(Boolean).join(' · ');
+ const product = TIERS[tierKey].product;
+ const notes = [
+ 'Source: cortexhealthai.com',
+ 'Product: CORTEX Health AI',
+ `Health tier: ${product}`,
+ practiceType ? `Practice type: ${practiceType}` : null,
+ ].filter(Boolean).join(' | ');
 
-  const payload = {
-    company_name: company,
-    contact_name: contactName,
-    email,
-    phone,
-    tier: tierKey,
-    has_assets: hasAssetsRadio.value === 'true',
-    tos_version: '2026-04-23',
-    privacy_version: '2026-04-23',
-    user_agent: navigator.userAgent,
-    source: 'cortexhealthai.com',
-    product_line: 'cortex_health',
-    notes,
-  };
+ const payload = {
+ company_name: company,
+ contact_name: contactName,
+ email,
+ phone,
+ tier: tierKey,
+ has_assets: hasAssetsRadio.value === 'true',
+ tos_version: '2026-04-23',
+ privacy_version: '2026-04-23',
+ user_agent: navigator.userAgent,
+ source: 'cortexhealthai.com',
+ product_line: 'cortex_health',
+ notes,
+ };
 
-  try {
-    const res = await fetch(`${SB_URL}/functions/v1/ibs-checkout-intake`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'apikey': ANON,
-      },
-      body: JSON.stringify(payload),
-    });
-    const data = await res.json().catch(() => ({}));
-    if (!res.ok || !data.ok) {
-      throw new Error(data.error || 'Submission failed. Please try again or email us.');
-    }
-    const path = payload.has_assets ? 'a' : 'b';
-    location.href = `/checkout/success.html?path=${path}&id=${encodeURIComponent(data.client_id || '')}&tier=${encodeURIComponent(product)}`;
-  } catch (err) {
-    showError(err.message || 'Something went wrong.');
-    submitBtn.disabled = false;
-    submitBtn.textContent = 'Submit & continue';
-  }
+ try {
+ const res = await fetch(`${SB_URL}/functions/v1/ibs-checkout-intake`, {
+ method: 'POST',
+ headers: {
+ 'Content-Type': 'application/json',
+ 'apikey': ANON,
+ },
+ body: JSON.stringify(payload),
+ });
+ const data = await res.json().catch(() => ({}));
+ if (!res.ok || !data.ok) {
+ throw new Error(data.error || 'Submission failed. Please try again or email us.');
+ }
+ const path = payload.has_assets ? 'a' : 'b';
+ location.href = `/checkout/success.html?path=${path}&id=${encodeURIComponent(data.client_id || '')}&tier=${encodeURIComponent(product)}`;
+ } catch (err) {
+ showError(err.message || 'Something went wrong.');
+ submitBtn.disabled = false;
+ submitBtn.textContent = 'Submit & continue';
+ }
 });
 </script>
 </body>

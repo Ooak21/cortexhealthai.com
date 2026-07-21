@@ -3,71 +3,71 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Intake received — CORTEX Health AI</title>
+<title>Intake received . CORTEX Health AI</title>
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #000; --surface: #0a0a0f; --border: #2c2e38;
-  --text: #f8f9fc; --muted: #8a8f9e; --dim: #5a5f72;
-  --accent: #3b82f6; --accent2: #60a5fa; --green: #10b981;
+ --bg: #000; --surface: #0a0a0f; --border: #2c2e38;
+ --text: #f8f9fc; --muted: #8a8f9e; --dim: #5a5f72;
+ --accent: #3b82f6; --accent2: #60a5fa; --green: #10b981;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 body {
-  background: var(--bg); color: var(--text);
-  font-family: 'Inter', system-ui, sans-serif;
-  min-height: 100vh;
-  display: flex; align-items: center; justify-content: center;
-  padding: 2rem 1rem;
-  -webkit-font-smoothing: antialiased;
-  background-image: radial-gradient(ellipse 50% 40% at 50% 30%, rgba(16,185,129,0.1), transparent 55%);
+ background: var(--bg); color: var(--text);
+ font-family: 'Inter', system-ui, sans-serif;
+ min-height: 100vh;
+ display: flex; align-items: center; justify-content: center;
+ padding: 2rem 1rem;
+ -webkit-font-smoothing: antialiased;
+ background-image: radial-gradient(ellipse 50% 40% at 50% 30%, rgba(16,185,129,0.1), transparent 55%);
 }
 .card {
-  width: 100%; max-width: 520px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 2.5rem 2rem;
-  text-align: center;
-  box-shadow: 0 40px 110px -28px rgb(0 0 0 / 0.92);
+ width: 100%; max-width: 520px;
+ background: var(--surface);
+ border: 1px solid var(--border);
+ border-radius: 20px;
+ padding: 2.5rem 2rem;
+ text-align: center;
+ box-shadow: 0 40px 110px -28px rgb(0 0 0 / 0.92);
 }
 .ok {
-  width: 52px; height: 52px; margin: 0 auto 1.25rem;
-  border-radius: 50%;
-  background: rgba(16,185,129,0.12);
-  border: 1px solid rgba(16,185,129,0.35);
-  display: flex; align-items: center; justify-content: center;
-  color: var(--green); font-size: 1.4rem; font-weight: 700;
+ width: 52px; height: 52px; margin: 0 auto 1.25rem;
+ border-radius: 50%;
+ background: rgba(16,185,129,0.12);
+ border: 1px solid rgba(16,185,129,0.35);
+ display: flex; align-items: center; justify-content: center;
+ color: var(--green); font-size: 1.4rem; font-weight: 700;
 }
 h1 { font-size: 1.55rem; font-weight: 700; letter-spacing: -0.03em; margin-bottom: 0.6rem; }
 p { color: var(--muted); font-size: 0.92rem; line-height: 1.6; margin-bottom: 1rem; }
 .steps {
-  text-align: left;
-  background: #050508;
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  padding: 1.1rem 1.2rem;
-  margin: 1.4rem 0 1.6rem;
+ text-align: left;
+ background: #050508;
+ border: 1px solid var(--border);
+ border-radius: 14px;
+ padding: 1.1rem 1.2rem;
+ margin: 1.4rem 0 1.6rem;
 }
 .steps h2 {
-  font-family: 'Geist Mono', monospace;
-  font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--accent2); margin-bottom: 0.75rem;
+ font-family: 'Geist Mono', monospace;
+ font-size: 0.62rem; letter-spacing: 0.14em; text-transform: uppercase;
+ color: var(--accent2); margin-bottom: 0.75rem;
 }
 .steps ol { padding-left: 1.15rem; color: var(--muted); font-size: 0.84rem; line-height: 1.7; }
 .steps li { margin-bottom: 0.35rem; }
 .meta {
-  font-family: 'Geist Mono', monospace;
-  font-size: 0.65rem; color: var(--dim); letter-spacing: 0.04em;
-  margin-bottom: 1.4rem;
+ font-family: 'Geist Mono', monospace;
+ font-size: 0.65rem; color: var(--dim); letter-spacing: 0.04em;
+ margin-bottom: 1.4rem;
 }
 .btn {
-  display: inline-flex; align-items: center; justify-content: center;
-  padding: 12px 22px; border-radius: 980px;
-  background: linear-gradient(135deg, var(--accent2), var(--accent));
-  color: #fff; font-weight: 600; font-size: 0.86rem; text-decoration: none;
-  box-shadow: 0 8px 28px rgba(59,130,246,0.3);
+ display: inline-flex; align-items: center; justify-content: center;
+ padding: 12px 22px; border-radius: 980px;
+ background: linear-gradient(135deg, var(--accent2), var(--accent));
+ color: #fff; font-weight: 600; font-size: 0.86rem; text-decoration: none;
+ box-shadow: 0 8px 28px rgba(59,130,246,0.3);
 }
 .btn:hover { transform: translateY(-1px); }
 .links { margin-top: 1.25rem; font-size: 0.78rem; color: var(--dim); }
@@ -76,15 +76,15 @@ p { color: var(--muted); font-size: 0.92rem; line-height: 1.6; margin-bottom: 1r
 </head>
 <body>
 <div class="card">
-  <div class="ok">✓</div>
-  <h1>Intake received.</h1>
-  <p id="msg">Your CORTEX Health build request is in the IBS CRM. Our team will follow up within one business day.</p>
-  <div class="steps" id="steps"></div>
-  <div class="meta" id="meta"></div>
-  <a class="btn" href="/">Back to CORTEX Health AI</a>
-  <div class="links">
-    <a href="mailto:support@innovativeblockchainsolutions.live">support@innovativeblockchainsolutions.live</a>
-  </div>
+ <div class="ok">✓</div>
+ <h1>Intake received.</h1>
+ <p id="msg">Your CORTEX Health build request is in the IBS CRM. Our team will follow up within one business day.</p>
+ <div class="steps" id="steps"></div>
+ <div class="meta" id="meta"></div>
+ <a class="btn" href="/">Back to CORTEX Health AI</a>
+ <div class="links">
+ <a href="mailto:support@innovativeblockchainsolutions.live">support@innovativeblockchainsolutions.live</a>
+ </div>
 </div>
 <script>
 const p = new URLSearchParams(location.search);
@@ -93,28 +93,28 @@ const id = p.get('id') || '';
 const tier = p.get('tier') || 'Growth';
 
 document.getElementById('meta').textContent = [
-  tier ? `Tier: ${tier}` : null,
-  id ? `Ref: ${id.slice(0, 8)}…` : null,
-  'Source: cortexhealthai.com',
-].filter(Boolean).join(' · ');
+ tier ? `Tier: ${tier}` : null,
+ id ? `Ref: ${id.slice(0, 8)}…` : null,
+ 'Source: cortexhealthai.com',
+].filter(Boolean).join(' | ');
 
 const steps = document.getElementById('steps');
 if (path === 'a') {
-  steps.innerHTML = `
-    <h2>What happens next</h2>
-    <ol>
-      <li>Ops reviews your intake in the IBS CRM.</li>
-      <li>You receive a Square invoice and secure upload link for assets.</li>
-      <li>After payment + assets, we deploy your CORTEX Health OS (typically 5–10 business days post-clear).</li>
-    </ol>`;
+ steps.innerHTML = `
+ <h2>What happens next</h2>
+ <ol>
+ <li>Ops reviews your intake in the IBS CRM.</li>
+ <li>You receive a Square invoice and secure upload link for assets.</li>
+ <li>After payment + assets, we deploy your CORTEX Health OS (typically 5 to 10 business days post-clear).</li>
+ </ol>`;
 } else {
-  steps.innerHTML = `
-    <h2>What happens next</h2>
-    <ol>
-      <li>We email a prep checklist (logo, branding, patient list, EHR name).</li>
-      <li>Reply with what you have — we'll book a short onboarding call if needed.</li>
-      <li>Once scoped, you get the invoice; deployment starts after payment clears.</li>
-    </ol>`;
+ steps.innerHTML = `
+ <h2>What happens next</h2>
+ <ol>
+ <li>We email a prep checklist (logo, branding, patient list, EHR name).</li>
+ <li>Reply with what you have. We'll book a short onboarding call if needed.</li>
+ <li>Once scoped, you get the invoice; deployment starts after payment clears.</li>
+ </ol>`;
 }
 </script>
 </body>

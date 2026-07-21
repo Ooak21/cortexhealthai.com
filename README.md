@@ -1,21 +1,21 @@
 # CORTEX Health AI
 
-**Medical-grade CRM · Patient management · EHR-connected practice OS**
+**Medical-grade CRM | Patient management | EHR-connected practice OS**
 
-Product site for [cortexhealthai.com](https://cortexhealthai.com) — the healthcare vertical of **Innovative Blockchain Solutions (IBS)**.
+Product site for [cortexhealthai.com](https://cortexhealthai.com), the healthcare vertical of **Innovative Blockchain Solutions (IBS)**.
 
 ## What this is
 
-CORTEX Health AI is the public face of IBS's medical / wellness practice systems:
+CORTEX Health AI is the public face of IBS's medical / wellness practice systems. The goal is to **replace the vendor stack clinics depend on** and confine nearly all operations inside one ecosystem.
 
 - HIPAA-aware patient CRM and pipeline
 - Secure digital intake
-- EHR / practice-management sync
-- Voice + after-hours capture
+- EHR integrate path and full EHR replacement path (Demand tier includes leaving Athena)
+- Voice and after-hours capture
 - Retention, recalls, reactivations
 - Provider and patient portals
 
-Live and in-flight deployments include **Vitality**, **Vitality Academies**, **Arron Lakey**, **Rekindle**, and **Body Language**, with additional practices in the pipeline.
+Live and in-flight deployments include **Vitality** (flagship EHR separation path under Dr. DeBry medical scrutiny), **Vitality Academies**, **Arron Lakey**, **Rekindle**, and **Body Language**.
 
 ## Stack
 
@@ -66,7 +66,7 @@ Tier map:
 - Parent: Innovative Blockchain Solutions
 - Product: CORTEX Health AI
 - Logos: `/assets/ibs-mark.svg`, `/assets/ibs-logo-dark.svg`, `/assets/IBS_LOGO_WHITE.jpg`
-- Design system: dark cinematic premium — see `DESIGN.md`
+- Design system: dark cinematic premium (see `DESIGN.md`)
 
 ## Contact
 
