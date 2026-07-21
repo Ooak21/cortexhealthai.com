@@ -275,7 +275,6 @@ button[type="submit"]:disabled, #payBtn:disabled { opacity: 0.5; cursor: not-all
 
 <script type="module">
 const TIERS = {
- verify: { label: 'CORTEX Health | Verify ($1 test)', product: 'Verify' },
  starter: { label: 'CORTEX Health | Core', product: 'Core' },
  professional: { label: 'CORTEX Health | Growth', product: 'Growth' },
  enterprise: { label: 'CORTEX Health | Scale', product: 'Scale' },
@@ -284,7 +283,6 @@ const TIERS = {
 
 // Display-only fee map. The server (cortexhealth-stripe PLANS) is the source of truth for the actual charge.
 const FEES = {
- verify: { build: 1, monthly: 0, slot: 'Verify' },
  starter: { build: 4500, monthly: 797, slot: 'Core' },
  professional: { build: 9500, monthly: 1997, slot: 'Growth' },
  enterprise: { build: 18000, monthly: 3997, slot: 'Scale' },
@@ -352,8 +350,7 @@ form.addEventListener('submit', async (e) => {
  submitBtn.textContent = 'Submitting…';
 
  const product = TIERS[tierKey].product;
- // ibs-checkout-intake only accepts the 4 real tiers; the $1 verify test rides in as 'starter'.
- const intakeTier = tierKey === 'verify' ? 'starter' : tierKey;
+ const intakeTier = tierKey;
 
  // Normalize phone to IBS convention (bare 10-digit) so downstream Telnyx/SMS matching lines up.
  let phoneDigits = phone.replace(/\D/g, '');
