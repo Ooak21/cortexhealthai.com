@@ -310,18 +310,30 @@ form.addEventListener('submit', async (e) => {
  submitBtn.textContent = 'Submitting…';
 
  const product = TIERS[tierKey].product;
+
+ // Normalize phone to IBS convention (bare 10-digit) so downstream Telnyx/SMS matching lines up.
+ let phoneDigits = phone.replace(/\D/g, '');
+ if (phoneDigits.length === 11 && phoneDigits[0] === '1') phoneDigits = phoneDigits.slice(1);
+
+ // Capture attribution (UTM + referrer) so marketing can trace the lead inside the CRM.
+ const utm = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content']
+ .map(k => { const v = params.get(k); return v ? `${k}=${v}` : null; })
+ .filter(Boolean);
+ if (document.referrer) utm.push(`referrer=${document.referrer.slice(0, 300)}`);
+
  const notes = [
  'Source: cortexhealthai.com',
  'Product: CORTEX Health AI',
  `Health tier: ${product}`,
  practiceType ? `Practice type: ${practiceType}` : null,
+ ...utm,
  ].filter(Boolean).join(' | ');
 
  const payload = {
  company_name: company,
  contact_name: contactName,
  email,
- phone,
+ phone: phoneDigits,
  tier: tierKey,
  has_assets: hasAssetsRadio.value === 'true',
  tos_version: '2026-04-23',
