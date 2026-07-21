@@ -8,6 +8,7 @@
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://js.stripe.com/v3/"></script>
 <style>
 :root {
  --bg: #000; --surface: #0a0a0f; --surface2: #121317;
@@ -111,7 +112,7 @@ input::placeholder { color: var(--dim); }
 .consent label { font-size: 0.74rem; color: var(--muted); line-height: 1.55; margin: 0; font-weight: 400; }
 .consent label strong { color: var(--text); font-weight: 600; }
 .consent label a { color: var(--accent2); }
-button[type="submit"] {
+button[type="submit"], #payBtn {
  width: 100%; padding: 14px;
  font-size: 0.9rem; font-weight: 600; font-family: inherit;
  color: #fff;
@@ -120,11 +121,20 @@ button[type="submit"] {
  transition: all 0.15s; margin-top: 0.3rem;
  box-shadow: 0 8px 28px rgba(59,130,246,0.3);
 }
-button[type="submit"]:hover:not(:disabled) {
+button[type="submit"]:hover:not(:disabled), #payBtn:hover:not(:disabled) {
  transform: translateY(-1px);
  box-shadow: 0 12px 36px rgba(59,130,246,0.45);
 }
-button[type="submit"]:disabled { opacity: 0.5; cursor: not-allowed; }
+button[type="submit"]:disabled, #payBtn:disabled { opacity: 0.5; cursor: not-allowed; }
+#paymentElement { margin: 0.9rem 0 0.4rem; min-height: 44px; }
+.pay-amt-row {
+ display: flex; align-items: baseline; justify-content: space-between;
+ padding: 0.85rem 1rem; margin: 0.3rem 0 0.2rem;
+ background: var(--surface2); border: 1px solid var(--border); border-radius: 12px;
+}
+.pay-amt-row .lbl { font-size: 0.78rem; color: var(--muted); }
+.pay-amt-row .amt { font-size: 1.35rem; font-weight: 700; letter-spacing: -0.02em; text-align: right; }
+.pay-amt-row .amt small { display: block; font-size: 0.62rem; color: var(--dim); font-weight: 500; }
 .security {
  display: flex; align-items: center; justify-content: center; gap: 0.4rem;
  margin-top: 0.9rem; font-size: 0.66rem; color: var(--dim);
@@ -242,6 +252,27 @@ button[type="submit"]:disabled { opacity: 0.5; cursor: not-allowed; }
  </div>
 </form>
 
+<div class="card" id="payStep" style="display:none;">
+ <a class="back" href="/#pricing">&larr; Back to pricing</a>
+ <div class="brand">
+ <img src="/assets/ibs-hex-logo.png" alt="IBS" width="28" height="28">
+ <span class="brand-name">IBS</span>
+ <span class="brand-sep">|</span>
+ <span class="brand-badge">Secure checkout | Stripe</span>
+ </div>
+ <h1>Reserve your build slot.</h1>
+ <p class="sub">Your intake is saved in the IBS CRM. Pay the one-time build fee to lock your <span id="paySlot">Growth</span> deployment. Monthly runs after your system is live.</p>
+ <div class="pay-amt-row">
+ <span class="lbl">One-time build fee</span>
+ <span class="amt"><span id="payAmount">$0</span><small id="payThen"></small></span>
+ </div>
+ <div id="paymentElement"></div>
+ <button type="button" id="payBtn">Pay &amp; start build</button>
+ <div class="security">Secured by Stripe | Card details never touch IBS servers</div>
+ <div class="error" id="payError"></div>
+ <div class="footer">Prefer to be invoiced? <a href="mailto:support@innovativeblockchainsolutions.live?subject=CORTEX%20Health%20AI%20invoice">Ask ops for a manual invoice</a></div>
+</div>
+
 <script type="module">
 const TIERS = {
  starter: { label: 'CORTEX Health | Core', product: 'Core' },
@@ -249,6 +280,15 @@ const TIERS = {
  enterprise: { label: 'CORTEX Health | Scale', product: 'Scale' },
  custom: { label: 'CORTEX Health | Demand', product: 'Demand' },
 };
+
+// Display-only fee map. The server (cortexhealth-stripe PLANS) is the source of truth for the actual charge.
+const FEES = {
+ starter: { build: 4500, monthly: 797, slot: 'Core' },
+ professional: { build: 9500, monthly: 1997, slot: 'Growth' },
+ enterprise: { build: 18000, monthly: 3997, slot: 'Scale' },
+ custom: { build: 30000, monthly: 5997, slot: 'Demand' },
+};
+let stripe, elements;
 
 const SB_URL = 'https://jtifhcvbgxqwlywugvjv.supabase.co';
 const ANON = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp0aWZoY3ZiZ3hxd2x5d3Vndmp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI1MDc5NTgsImV4cCI6MjA4ODA4Mzk1OH0.UfRVLuvM8_HPvKXUEDXb0cxR50znv16L5Tf99AnSc7g';
@@ -357,14 +397,85 @@ form.addEventListener('submit', async (e) => {
  if (!res.ok || !data.ok) {
  throw new Error(data.error || 'Submission failed. Please try again or email us.');
  }
+ // Lead saved in the IBS CRM. Continue to secure Stripe payment for the build fee.
  const path = payload.has_assets ? 'a' : 'b';
- location.href = `/checkout/success.html?path=${path}&id=${encodeURIComponent(data.client_id || '')}&tier=${encodeURIComponent(product)}`;
+ await startPayment(data.client_id || '', { company, email, path });
  } catch (err) {
  showError(err.message || 'Something went wrong.');
  submitBtn.disabled = false;
  submitBtn.textContent = 'Submit & continue';
  }
 });
+
+async function startPayment(clientId, ctx) {
+  const payStep = document.getElementById('payStep');
+  const payErrBox = document.getElementById('payError');
+  const payBtn = document.getElementById('payBtn');
+  const fee = FEES[tierKey] || FEES.professional;
+  const showPayErr = (m) => { payErrBox.textContent = m; payErrBox.classList.add('show'); };
+
+  // Swap the intake card for the payment card.
+  form.style.display = 'none';
+  payStep.style.display = 'block';
+  document.getElementById('paySlot').textContent = fee.slot;
+  document.getElementById('payAmount').textContent = '$' + fee.build.toLocaleString('en-US');
+  document.getElementById('payThen').textContent = 'then $' + fee.monthly.toLocaleString('en-US') + '/mo after go-live';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+
+  try {
+    const cfg = await (await fetch(`${SB_URL}/functions/v1/stripe-config`, { headers: { apikey: ANON } })).json();
+    if (!cfg.publishable_key) throw new Error('Card payment is temporarily unavailable. Use the invoice option below.');
+    stripe = Stripe(cfg.publishable_key);
+
+    const pi = await (await fetch(`${SB_URL}/functions/v1/cortexhealth-stripe`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', apikey: ANON },
+      body: JSON.stringify({ action: 'create', tier: tierKey, client_id: clientId, email: ctx.email, company_name: ctx.company }),
+    })).json();
+    if (!pi.client_secret) throw new Error(pi.detail || pi.error || 'Could not start payment. Use the invoice option below.');
+
+    elements = stripe.elements({
+      clientSecret: pi.client_secret,
+      appearance: {
+        theme: 'night',
+        variables: {
+          colorPrimary: '#3b82f6', colorBackground: '#050508', colorText: '#f8f9fc',
+          colorDanger: '#ef4444', fontFamily: 'Inter, system-ui, sans-serif', borderRadius: '10px',
+        },
+      },
+    });
+    elements.create('payment', { layout: 'tabs' }).mount('#paymentElement');
+
+    payBtn.addEventListener('click', async () => {
+      payErrBox.classList.remove('show');
+      payBtn.disabled = true; payBtn.textContent = 'Processing…';
+      const { error, paymentIntent } = await stripe.confirmPayment({
+        elements,
+        redirect: 'if_required',
+        confirmParams: { return_url: `${location.origin}/checkout/success.html?id=${encodeURIComponent(clientId)}&tier=${encodeURIComponent(fee.slot)}&path=${ctx.path}&paid=1` },
+      });
+      if (error) {
+        showPayErr(error.message || 'Payment failed. Please try another card.');
+        payBtn.disabled = false; payBtn.textContent = 'Pay & start build';
+        return;
+      }
+      if (paymentIntent && paymentIntent.status === 'succeeded') {
+        // Idempotent server-side confirm: marks the lead build_paid + seeds ops queue.
+        fetch(`${SB_URL}/functions/v1/cortexhealth-stripe`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', apikey: ANON },
+          body: JSON.stringify({ action: 'confirm', payment_intent_id: paymentIntent.id, client_id: clientId }),
+        }).catch(() => {});
+        location.href = `/checkout/success.html?id=${encodeURIComponent(clientId)}&tier=${encodeURIComponent(fee.slot)}&path=${ctx.path}&paid=1`;
+      } else {
+        showPayErr('Payment is processing. If you are charged, ops will confirm by email.');
+        payBtn.disabled = false; payBtn.textContent = 'Pay & start build';
+      }
+    });
+  } catch (err) {
+    showPayErr(err.message || 'Payment could not start. Use the invoice option below.');
+  }
+}
 </script>
 </body>
 </html>

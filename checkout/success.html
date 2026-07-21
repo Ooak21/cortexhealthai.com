@@ -98,8 +98,18 @@ document.getElementById('meta').textContent = [
  'Source: cortexhealthai.com',
 ].filter(Boolean).join(' | ');
 
+const paid = p.get('paid') === '1';
 const steps = document.getElementById('steps');
-if (path === 'a') {
+if (paid) {
+ document.getElementById('msg').textContent = 'Payment received. Your CORTEX Health build is confirmed in the IBS CRM and ops is on it.';
+ steps.innerHTML = `
+ <h2>Payment received</h2>
+ <ol>
+ <li>Your build fee is paid and logged in the IBS CRM. A Stripe receipt is on its way by email.</li>
+ <li>Send your assets (logo, branding, patient list, EHR / PM name) so we can start.</li>
+ <li>We deploy your CORTEX Health OS, typically 5 to 10 business days after assets are approved.</li>
+ </ol>`;
+} else if (path === 'a') {
  steps.innerHTML = `
  <h2>What happens next</h2>
  <ol>
