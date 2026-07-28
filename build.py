@@ -581,8 +581,6 @@ def _mark(slug, label, dark, light, h):
 for old, new in [
     ('<img src="/assets/xai-logomark.png" alt="xAI" height="28" style="height:28px; width:auto;">',
      _mark('xai', 'xAI', 'xai-mark-dark.svg', 'xai-mark-light.svg', 28)),
-    ('<img src="/assets/grok-logomark.png" alt="Grok" height="28" style="height:28px; width:auto;">',
-     _mark('grok', 'Grok', 'grok-mark-dark.svg', 'grok-mark-light.svg', 28)),
     ('<img src="/assets/anthropic-logo.png" alt="Anthropic" height="22" style="height:22px; width:auto;">',
      _mark('anthropic', 'Anthropic', 'anthropic-mark-dark.png', 'anthropic-logo.png', 22)),
 ]:
