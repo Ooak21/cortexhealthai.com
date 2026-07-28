@@ -282,7 +282,9 @@ div[style*="rgba(18,19,23,0.9)"] {
   background:linear-gradient(180deg,#ffffff,#f6f8fd) !important;
   border-color:var(--border-soft) !important;
 }
-img[alt="xAI"],img[alt="Grok"],img[alt="Anthropic"] { filter:invert(1) brightness(0.28); }
+/* real artwork per theme - no filter trickery */
+.vmark { display:block; }
+.vmark-on-dark { display:none; }
 
 .flow-5 { grid-template-columns:repeat(5,1fr); }
 
@@ -411,10 +413,8 @@ img[alt="xAI"],img[alt="Grok"],img[alt="Anthropic"] { filter:invert(1) brightnes
 }
 [data-theme="dark"] .stack-visual { border-color:rgba(255,255,255,0.10); }
 [data-theme="dark"] .proof-visual figcaption { background:var(--surface); }
-/* the vendor marks are white artwork - inverting them is a light-theme fix only */
-[data-theme="dark"] img[alt="xAI"],
-[data-theme="dark"] img[alt="Grok"],
-[data-theme="dark"] img[alt="Anthropic"] { filter:none; }
+[data-theme="dark"] .vmark-on-light { display:none; }
+[data-theme="dark"] .vmark-on-dark { display:block; }
 [data-theme="dark"] div[style*="rgba(18,19,23,0.9)"] {
   background:linear-gradient(180deg,#0c1224,#070c19) !important;
   border-color:var(--border-soft) !important;
@@ -567,6 +567,27 @@ for num, svg in _ICO.items():
 _H2_OLD = '<h2>Inquiry in. Chart ready. Desk free.</h2>'
 assert _H2_OLD in out, 'flow headline not found'
 out = out.replace(_H2_OLD, '<h2>Inquiry in. Chart ready. Desk&nbsp;free.</h2>', 1)
+
+# ---- real per-theme vendor marks, replacing the invert() hack -------------
+# xAI/Grok ship official Dark (#0A0A0A, for light backgrounds) and Light
+# (white, for dark) variants; Anthropic's wordmark is recoloured from the same
+# artwork. Both are in the DOM and CSS shows the right one per theme.
+def _mark(slug, label, dark, light, h):
+    return (f'<img class="vmark vmark-on-light" src="/assets/{dark}" alt="{label}" '
+            f'style="height:{h}px; width:auto;">'
+            f'<img class="vmark vmark-on-dark" src="/assets/{light}" alt="" aria-hidden="true" '
+            f'style="height:{h}px; width:auto;">')
+
+for old, new in [
+    ('<img src="/assets/xai-logomark.png" alt="xAI" height="28" style="height:28px; width:auto;">',
+     _mark('xai', 'xAI', 'xai-mark-dark.svg', 'xai-mark-light.svg', 28)),
+    ('<img src="/assets/grok-logomark.png" alt="Grok" height="28" style="height:28px; width:auto;">',
+     _mark('grok', 'Grok', 'grok-mark-dark.svg', 'grok-mark-light.svg', 28)),
+    ('<img src="/assets/anthropic-logo.png" alt="Anthropic" height="22" style="height:22px; width:auto;">',
+     _mark('anthropic', 'Anthropic', 'anthropic-mark-dark.png', 'anthropic-logo.png', 22)),
+]:
+    assert old in out, f'vendor mark not found: {old[:46]}'
+    out = out.replace(old, new, 1)
 
 # ---- drop the named physician from the copy, keep the claim ---------------
 for old, new in [

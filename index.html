@@ -1237,7 +1237,9 @@ div[style*="rgba(18,19,23,0.9)"] {
   background:linear-gradient(180deg,#ffffff,#f6f8fd) !important;
   border-color:var(--border-soft) !important;
 }
-img[alt="xAI"],img[alt="Grok"],img[alt="Anthropic"] { filter:invert(1) brightness(0.28); }
+/* real artwork per theme - no filter trickery */
+.vmark { display:block; }
+.vmark-on-dark { display:none; }
 
 .flow-5 { grid-template-columns:repeat(5,1fr); }
 
@@ -1366,10 +1368,8 @@ img[alt="xAI"],img[alt="Grok"],img[alt="Anthropic"] { filter:invert(1) brightnes
 }
 [data-theme="dark"] .stack-visual { border-color:rgba(255,255,255,0.10); }
 [data-theme="dark"] .proof-visual figcaption { background:var(--surface); }
-/* the vendor marks are white artwork - inverting them is a light-theme fix only */
-[data-theme="dark"] img[alt="xAI"],
-[data-theme="dark"] img[alt="Grok"],
-[data-theme="dark"] img[alt="Anthropic"] { filter:none; }
+[data-theme="dark"] .vmark-on-light { display:none; }
+[data-theme="dark"] .vmark-on-dark { display:block; }
 [data-theme="dark"] div[style*="rgba(18,19,23,0.9)"] {
   background:linear-gradient(180deg,#0c1224,#070c19) !important;
   border-color:var(--border-soft) !important;
@@ -1766,15 +1766,15 @@ img[alt="xAI"],img[alt="Grok"],img[alt="Anthropic"] { filter:invert(1) brightnes
  </div>
  <div style="display:flex; align-items:center; gap:32px; flex-wrap:wrap; justify-content:center;">
  <div style="display:flex; align-items:center; gap:10px; opacity:0.9;">
- <img src="/assets/xai-logomark.png" alt="xAI" height="28" style="height:28px; width:auto;">
+ <img class="vmark vmark-on-light" src="/assets/xai-mark-dark.svg" alt="xAI" style="height:28px; width:auto;"><img class="vmark vmark-on-dark" src="/assets/xai-mark-light.svg" alt="" aria-hidden="true" style="height:28px; width:auto;">
  <span style="font-family:var(--mono); font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted);">xAI</span>
  </div>
  <div style="display:flex; align-items:center; gap:10px; opacity:0.9;">
- <img src="/assets/grok-logomark.png" alt="Grok" height="28" style="height:28px; width:auto;">
+ <img class="vmark vmark-on-light" src="/assets/grok-mark-dark.svg" alt="Grok" style="height:28px; width:auto;"><img class="vmark vmark-on-dark" src="/assets/grok-mark-light.svg" alt="" aria-hidden="true" style="height:28px; width:auto;">
  <span style="font-family:var(--mono); font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted);">Grok</span>
  </div>
  <div style="display:flex; align-items:center; gap:10px; opacity:0.9;">
- <img src="/assets/anthropic-logo.png" alt="Anthropic" height="22" style="height:22px; width:auto;">
+ <img class="vmark vmark-on-light" src="/assets/anthropic-mark-dark.png" alt="Anthropic" style="height:22px; width:auto;"><img class="vmark vmark-on-dark" src="/assets/anthropic-logo.png" alt="" aria-hidden="true" style="height:22px; width:auto;">
  <span style="font-family:var(--mono); font-size:0.72rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--muted);">Anthropic</span>
  </div>
  </div>
