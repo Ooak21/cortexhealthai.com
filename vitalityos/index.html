@@ -27,7 +27,6 @@
 <meta name="twitter:description" content="One spine, four surfaces, zero seams. The operating system behind Vitality, and what it does to a clinic's margins.">
 <meta name="twitter:image" content="https://cortexhealthai.com/assets/og-vitalityos.png">
 <meta name="twitter:image:alt" content="Vitality OS case study by CORTEX Health AI.">
-
 <style>
  :root{
   --ink:#0B1220; --ink-2:#334155; --muted:#64748B; --line:#E6EAF0;
@@ -358,6 +357,13 @@
   .cta-sent{display:none;margin-top:12px;font-size:13.5px;font-weight:700;color:var(--green)}
   .cta-err{display:none;margin-top:12px;font-size:13.5px;font-weight:700;color:var(--red)}
   .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+ .hubweb-wrap{overflow-x:auto;padding:6px 0}
+ .hubweb{position:relative;width:900px;height:260px;margin:0 auto}
+ .hubweb svg{position:absolute;left:0;top:0;width:900px;height:260px}
+ .tchip{position:absolute;transform:translate(-50%,-50%);background:var(--bg-soft);border:1px solid var(--line);border-radius:8px;padding:5px 9px;font-size:11px;font-weight:700;color:var(--ink-2);white-space:nowrap;z-index:2}
+ .tchip.red{border-color:#E9A6A6;color:var(--red);background:var(--red-l)}
+ .hub-center{position:absolute;left:450px;top:128px;transform:translate(-50%,-50%);background:var(--ink);color:#fff;border-radius:10px;padding:9px 14px;font-size:12.5px;font-weight:800;text-align:center;z-index:3;box-shadow:0 8px 20px rgba(0,0,0,.25);line-height:1.15}
+ .hub-center small{display:block;font-weight:600;color:#9AA7BD;font-size:9px;margin-top:2px}
 </style>
 </head>
 <body>
@@ -401,7 +407,7 @@
    <span class="tag"><span class="dot" style="background:var(--blue)"></span>LegitScript certified</span>
   </div>
   <div class="kpis">
-   <div class="kpi b"><div class="n">4</div><div class="l">Products replaced by 1 OS</div></div>
+   <div class="kpi b"><div class="n">12+</div><div class="l">Tools replaced by 1 OS</div></div>
    <div class="kpi g"><div class="n">47<small> / 28</small></div><div class="l">Live patients / active leads <span class="real">Real</span></div></div>
    <div class="kpi o"><div class="n">$7.6k<small>/mo</small></div><div class="l">SaaS + agency stack eliminated <span class="ill">Illustrative</span></div></div>
    <div class="kpi v"><div class="n">24<small>hr</small></div><div class="l">Async consult → Rx decision <span class="real">Real</span></div></div>
@@ -418,7 +424,7 @@
   </div>
   <div class="grid g2">
    <div>
-    <p class="lead-in">Vitality Weight Loss is a physician-led medical weight-loss practice in Las Vegas, built around board-certified obesity-medicine physician <strong>Peter W. DeBry, MD</strong> (NPI 1831137991). It sells GLP-1 therapy, hormone optimization, men's health, and a hair-loss line, every path physician-reviewed within 24 hours.</p>
+    <p class="lead-in">Vitality Weight Loss is a physician-led medical weight-loss practice in Las Vegas, built around board-certified obesity-medicine physician <strong>Peter W. DeBry, MD</strong> (NPI 1831137991). It sells GLP-1 and GIP therapy, testosterone replacement for men (Vitality Male), and whole-body support to manage treatment side effects (Vitality Bloom), every path physician-reviewed within 24 hours.</p>
     <p>Like most modern clinics, it began life stitched together from other people's software: a marketing CRM to catch leads, a separate EHR to chart and bill, a chat app for the team, a phone system, a scheduler, a course tool for education, form builders, e-fax, spreadsheets to glue it all together. Every tool was a subscription. Every subscription was a silo. And every silo needed a human to swivel-chair data from one to the next, the lead that never made it into the chart, the payment that never tied back to the visit, the follow-up nobody owned.</p>
    </div>
    <div>
@@ -476,12 +482,22 @@
   </div>
 
   <div id="archBefore" class="arch arch-before">
-   <div style="text-align:center;font-weight:700;font-size:13px;color:var(--muted);margin-bottom:14px">A dozen-plus disconnected systems, and a person standing in the middle of all of them</div>
-   <div class="hubcloud">
-    <div class="chip" style="border-color:#E9A6A6;color:var(--red)">Raptor site</div><div class="chip">HubSpot</div><div class="chip">athenaOne</div><div class="chip">Slack</div><div class="chip">PatientPop</div><div class="chip">Stripe</div><div class="chip">Calendly</div>
-    <div class="chip">Twilio</div><div class="chip">Kajabi</div><div class="chip">Jotform</div><div class="chip">Clearinghouse</div><div class="chip">Apollo</div><div class="chip">Sheets</div>
+   <div style="text-align:center;font-weight:700;font-size:13px;color:var(--muted);margin-bottom:10px">A dozen-plus disconnected systems, and a person in the middle of all of them.</div>
+   <div class="hubweb-wrap">
+    <div class="hubweb">
+     <svg viewBox="0 0 900 260" width="900" height="260" aria-hidden="true">
+      <defs>
+       <marker id="ar" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#E1543F"/></marker>
+       <marker id="ar2" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#94A3B8"/></marker>
+      </defs>
+      <line x1="450" y1="128" x2="120" y2="34" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="290" y2="22" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="470" y2="18" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="640" y2="24" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="805" y2="44" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="842" y2="118" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="800" y2="206" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="632" y2="234" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="455" y2="242" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="280" y2="238" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="112" y2="210" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="58" y2="150" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/><line x1="450" y1="128" x2="70" y2="82" stroke="#E1543F" stroke-width="1.5" stroke-dasharray="5 4" opacity=".55" marker-end="url(#ar)"/>
+      <line x1="290" y1="22" x2="470" y2="18" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5" marker-end="url(#ar2)"/><line x1="470" y1="18" x2="842" y2="118" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5" marker-end="url(#ar2)"/><line x1="455" y1="242" x2="70" y2="82" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5" marker-end="url(#ar2)"/><line x1="280" y1="238" x2="290" y2="22" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5" marker-end="url(#ar2)"/><line x1="112" y1="210" x2="470" y2="18" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5" marker-end="url(#ar2)"/><line x1="58" y1="150" x2="290" y2="22" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5" marker-end="url(#ar2)"/><line x1="805" y1="44" x2="632" y2="234" stroke="#94A3B8" stroke-width="1.2" stroke-dasharray="3 5" opacity=".5" marker-end="url(#ar2)"/>
+     </svg>
+     <div class="hub-center">👤 Staff<small>the human integration</small></div>
+     <div class="tchip red" style="left:120px;top:34px">Raptor site</div><div class="tchip" style="left:290px;top:22px">HubSpot</div><div class="tchip" style="left:470px;top:18px">athenaOne</div><div class="tchip" style="left:640px;top:24px">Slack</div><div class="tchip" style="left:805px;top:44px">PatientPop</div><div class="tchip" style="left:842px;top:118px">Stripe</div><div class="tchip" style="left:800px;top:206px">Calendly</div><div class="tchip" style="left:632px;top:234px">Twilio</div><div class="tchip" style="left:455px;top:242px">Kajabi</div><div class="tchip" style="left:280px;top:238px">Jotform</div><div class="tchip" style="left:112px;top:210px">Clearinghouse</div><div class="tchip" style="left:58px;top:150px">Apollo</div><div class="tchip" style="left:70px;top:82px">Sheets</div>
+    </div>
    </div>
-   <div class="tangle">↑ every arrow between these is a human copying data by hand ↑</div>
+   <div class="tangle">↑ every one of these arrows is a human copying data by hand, no system talks to the next ↑</div>
   </div>
 
   <div id="archAfter" class="arch" style="display:none">
@@ -785,7 +801,7 @@
       <div class="s">Intensive behavioral therapy lectures, podcasts, and 1:1 counseling sessions, delivered right in the portal.</div>
      </div>
     </div>
-    <div style="padding:0 18px 18px"><div class="muted" style="font-size:11.5px">"The learning home for every Vitality patient. This program supports, and does not replace, the guidance of your care team.", and every completed mission writes back to the chart.</div></div>
+    <div style="padding:0 18px 18px"><div class="muted" style="font-size:11.5px">"The learning home for every Vitality patient. This program supports, and does not replace, the guidance of your care team." Every completed mission writes back to the chart.</div></div>
    </div>
 
    <!-- VBIS PTP -->
@@ -868,7 +884,7 @@
     <div class="sec-head">
       <div class="eyebrow">The Offer</div>
       <h2>MBA guidance widened the value prop by maximizing what the provider can offer.</h2>
-      <p>The clinic is no longer a single-product GLP-1 shop. By mapping the full range of what the physician can safely deliver, the offer stretched across four programs and two ways to buy, so more of every lead converts, whether they want the full transformation or just the medication.</p>
+      <p>The clinic is no longer a single-product GLP-1 shop. By mapping the full range of what the physician can safely deliver, the offer widened to four care lines and two ways to buy: join a full program, or take Vitality Direct for async, direct-pay access, so more of every lead converts, whether they want the full transformation or just the medication.</p>
     </div>
     <div class="grid g2">
       <div class="card" style="border-color:#BFD3FB">
@@ -1059,7 +1075,7 @@
  <div class="wrap">
   <div class="pull">
    <p>"We didn't buy a better clinic stack. We stopped renting one, and built the operating system the clinic runs on."</p>
-   <div class="by">, The thesis behind Vitality OS</div>
+   <div class="by">On the thesis behind Vitality OS</div>
   </div>
  </div>
 </section>
@@ -1073,10 +1089,10 @@
    <p>Any competitor can license HubSpot and athenaOne. None of them own the seam between acquisition, care, billing and education. Vitality does, and that ownership creates four reinforcing advantages.</p>
   </div>
   <div class="moat">
-   <div class="m"><div class="num">01 · VERTICAL INTEGRATION</div><h4>One record, no vendor tax</h4><p>Collapsing 12 vendors into an owned spine removes both the subscription tax and the integration tax. Margin that used to leave the business as SaaS fees and reconciliation labor now stays in it, and every new feature ships against data the clinic already controls.</p></div>
+   <div class="m"><div class="num">01 · VERTICAL INTEGRATION</div><h4>One record, no vendor tax</h4><p>Collapsing a dozen-plus vendors into an owned spine removes both the subscription tax and the integration tax. Margin that used to leave the business as SaaS fees and reconciliation labor now stays in it, and every new feature ships against data the clinic already controls.</p></div>
    <div class="m"><div class="num">02 · DATA COMPOUNDING</div><h4>Every interaction trains the machine</h4><p>Leads, charts, payments, plans, adherence and course completions live in one schema. That unified dataset is what makes the async-intake automation, transformation-plan generation and AI scribe possible, and each is a capability a fragmented competitor structurally cannot assemble.</p></div>
    <div class="m"><div class="num">03 · SWITCHING COSTS</div><h4>The patient's whole life-with-Vitality is inside</h4><p>Plan, meds, progress, messaging, coursework and community all live in one app and Academy. Retention stops being a discount war and becomes a function of embeddedness, the reason "Active" patients re-bill month after month.</p></div>
-   <div class="m"><div class="num">04 · DISTRIBUTION CONTROL</div><h4>The funnel is a feature, not a rented channel</h4><p>Because the website's offers and CTAs drop structured leads straight onto the clinical board, the clinic owns its acquisition instrumentation end-to-end, it can launch a new offer (Medicare Bridge, Total Male, Bloom) and see it convert to cash on the same record, same day.</p></div>
+   <div class="m"><div class="num">04 · DISTRIBUTION CONTROL</div><h4>The funnel is a feature, not a rented channel</h4><p>Because the website's offers and CTAs drop structured leads straight onto the clinical board, the clinic owns its acquisition instrumentation end-to-end, it can launch a new offer (Medicare Bridge, Vitality Male, Bloom) and see it convert to cash on the same record, same day.</p></div>
   </div>
  </div>
 </section>
