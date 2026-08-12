@@ -17,9 +17,17 @@
 <meta property="og:title" content="CORTEX Health AI | Practice OS that replaces your vendor stack">
 <meta property="og:description" content="One HIPAA-aware ecosystem for the clinic. Integrate when you must. Replace when you can. Highest tier includes EHR.">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://cortexhealthai.com/assets/og-cortexhealth.png">
+<meta property="og:image:secure_url" content="https://cortexhealthai.com/assets/og-cortexhealth.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="CORTEX Health AI: one ecosystem, almost nothing left outside it.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="CORTEX Health AI by IBS">
 <meta name="twitter:description" content="Medical-grade CRM, patient management, and EHR-connected practice OS.">
+<meta name="twitter:image" content="https://cortexhealthai.com/assets/og-cortexhealth.png">
+<meta name="twitter:image:alt" content="CORTEX Health AI practice operating system.">
 
 <script type="application/ld+json">
 {
@@ -1118,6 +1126,16 @@ body { background:var(--paper); color:var(--ink); }
 #deployments .deploy h3 { color:#fff; }
 #deployments .deploy p { color:rgba(255,255,255,0.64); }
 #deployments .deploy-tag { color:#8fb4ff; }
+/* Case study link under the deployment cards. Sits on the dark band, so the
+   ghost button's white text and the tinted border both read correctly. */
+#deployments .deploy-more { text-align:center; margin-top:clamp(26px,3vw,38px); }
+#deployments .deploy-more .btn-ghost { border-color:rgba(255,255,255,0.28); color:#fff; }
+#deployments .deploy-more .btn-ghost:hover {
+  border-color:rgba(143,180,255,0.65); background:rgba(143,180,255,0.12);
+}
+#deployments .deploy-more p {
+  margin:14px 0 0; font-size:0.82rem; color:rgba(255,255,255,0.6);
+}
 
 /* ---------- remaining surfaces ---------- */
 .module,.price,.comply-card,.deploy,.faq-item,.billing-toggle { background:#fff; border-color:var(--border-soft); }
@@ -1393,6 +1411,7 @@ div[style*="rgba(18,19,23,0.9)"] {
  <nav class="nav-links" id="navLinks">
  <a href="#platform">Platform</a>
  <a href="#deployments">Deployments</a>
+ <a href="/vitalityos/">Case study</a>
  <a href="#compliance">Compliance</a>
  <a href="#pricing">Pricing</a>
  <a href="#start" class="nav-cta">Request build</a>
@@ -1526,6 +1545,10 @@ div[style*="rgba(18,19,23,0.9)"] {
     <h3>Body Language</h3>
     <p>TouchPrint capture plus spa enterprise CRM so guest preference lives with the business, not a single therapist.</p>
    </div>
+  </div>
+  <div class="deploy-more">
+   <a class="btn btn-ghost" href="/vitalityos/">Read the Vitality build, end to end</a>
+   <p>The stack it replaced, the architecture that replaced it, and what that did to the clinic.</p>
   </div>
  </div>
  <div class="blend" style="margin-top: clamp(40px, 6vw, 88px);">

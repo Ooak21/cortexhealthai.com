@@ -163,6 +163,16 @@ body { background:var(--paper); color:var(--ink); }
 #deployments .deploy h3 { color:#fff; }
 #deployments .deploy p { color:rgba(255,255,255,0.64); }
 #deployments .deploy-tag { color:#8fb4ff; }
+/* Case study link under the deployment cards. Sits on the dark band, so the
+   ghost button's white text and the tinted border both read correctly. */
+#deployments .deploy-more { text-align:center; margin-top:clamp(26px,3vw,38px); }
+#deployments .deploy-more .btn-ghost { border-color:rgba(255,255,255,0.28); color:#fff; }
+#deployments .deploy-more .btn-ghost:hover {
+  border-color:rgba(143,180,255,0.65); background:rgba(143,180,255,0.12);
+}
+#deployments .deploy-more p {
+  margin:14px 0 0; font-size:0.82rem; color:rgba(255,255,255,0.6);
+}
 
 /* ---------- remaining surfaces ---------- */
 .module,.price,.comply-card,.deploy,.faq-item,.billing-toggle { background:#fff; border-color:var(--border-soft); }
@@ -536,6 +546,10 @@ HERO = """<!-- HERO -->
     <h3>Body Language</h3>
     <p>TouchPrint capture plus spa enterprise CRM so guest preference lives with the business, not a single therapist.</p>
    </div>
+  </div>
+  <div class="deploy-more">
+   <a class="btn btn-ghost" href="/vitalityos/">Read the Vitality build, end to end</a>
+   <p>The stack it replaced, the architecture that replaced it, and what that did to the clinic.</p>
   </div>
  </div>
  <div class="blend" style="margin-top: clamp(40px, 6vw, 88px);">
