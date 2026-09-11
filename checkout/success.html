@@ -6,6 +6,9 @@
 <title>Intake received . CORTEX Health AI</title>
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="canonical" href="https://cortexhealthai.com/checkout/success.html">
+<meta name="robots" content="noindex, follow">
+<script src="/ga.js" defer></script>
 <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -91,6 +94,7 @@ const p = new URLSearchParams(location.search);
 const path = p.get('path') === 'a' ? 'a' : 'b';
 const id = p.get('id') || '';
 const tier = p.get('tier') || 'Growth';
+window.addEventListener('load', () => { if (window.cxTrack) cxTrack('intake_paid', { tier }); });
 
 document.getElementById('meta').textContent = [
  tier ? `Tier: ${tier}` : null,

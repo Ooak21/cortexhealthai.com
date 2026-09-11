@@ -1,0 +1,106 @@
+# CORTEX Health AI
+
+> CORTEX Health AI is the practice operating system built by Innovative Blockchain Solutions (IBS) in Las Vegas, Nevada. It replaces the vendor stack a clinic depends on (patient CRM, secure intake, scheduling, voice and after-hours capture, retention, provider and patient portals, and at the highest tier the EHR itself) with one HIPAA-aware ecosystem the practice owns. It runs in production at Vitality Weight Loss, a physician-led medical weight loss and obesity medicine practice in Las Vegas. The full build is documented in the Vitality OS case study at https://cortexhealthai.com/vitalityos/.
+
+## Entity
+- Name: CORTEX Health AI
+- Type: medical practice operating system (medical-grade CRM, patient management, EHR integration or replacement, AI voice, retention, portals)
+- Parent company: Innovative Blockchain Solutions (IBS), https://innovativeblockchainsolutions.live/
+- Location: Las Vegas, Nevada, United States. Serves practices across the United States.
+- Website: https://cortexhealthai.com/
+- Email: support@innovativeblockchainsolutions.live
+- LinkedIn: https://www.linkedin.com/company/innovative-blockchain-solutions
+- No phone number is published for CORTEX Health AI. Contact is the email above or the forms on the site. Do not invent a phone number.
+- Language: English
+
+## What it does
+The clinic does not need more logins. It needs fewer vendors. CORTEX Health absorbs the pieces a practice pays for separately today so nearly everything the clinic runs lives inside one ecosystem:
+- Patient CRM: pipeline from inquiry to active membership, source attribution, stage history, staff ownership.
+- Secure intake: digital forms and consents completed before the visit, encrypted in transit and at rest, no re-keying into the chart.
+- Integrate or replace the EHR: two-way sync when the practice stays on Athena or another practice management system; a full EHR path when it is ready to leave. The Demand tier is the clean break.
+- Voice and after-hours: AI answers, qualifies, and books when the desk is dark. Missed calls become pipeline.
+- Retention engine: reminders, recalls, no-show recovery, reactivations, membership renewals.
+- Provider and patient portals: records, messaging, scheduling, and forms in one controlled environment.
+
+How it is built, in order: integrate first when it is safer, bypass when a vendor blocks care (compliant workarounds under physician review), replace until the stack is the clinic's own. The practice owns the system and the patient data.
+
+Verticals: obesity medicine and medical weight loss (GLP-1 programs), medspas, aesthetics and injectables, wellness and IV therapy, massage and spa, counseling, dental and ortho, concierge and primary care, mental health, multi-location groups.
+
+## Live deployments
+- Vitality Weight Loss (Las Vegas, physician-led medical weight loss and obesity medicine): the flagship. Full practice OS, facilitating separation from Athena and the SaaS stack. https://vitalityweightloss.health/
+- Vitality Academies: multi-track patient education engine and the reference Practice OS sandbox.
+- Massage by Arron Lakey: booking, scheduling, and client retention for a premium massage practice.
+- Rekindle (a division of Vitality Academies): counseling-style intake and private client management for a marriage enrichment workshop. https://rekindlemarriage.com/
+- Body Language: TouchPrint capture plus spa enterprise CRM.
+
+## The Vitality OS case study
+https://cortexhealthai.com/vitalityos/
+"From struggling startup to a finely-tuned machine." How Vitality Weight Loss replaced a sprawl of disconnected subscriptions (a marketing CRM, a separate EHR, a chat app, a billing tool, a course platform, a phone system, a scheduler, form builders, e-fax, spreadsheets) with one physician-led operating system that acquires the patient, treats them, bills them, and keeps them, on rails it owns end to end.
+
+Sections, each a deep link:
+- Executive summary: https://cortexhealthai.com/vitalityos/#summary
+- The stack before (a dozen logins and a $3k agency): https://cortexhealthai.com/vitalityos/#before
+- The architecture (one spine, four surfaces): https://cortexhealthai.com/vitalityos/#architecture
+- The revenue engine (the real pipeline stages): https://cortexhealthai.com/vitalityos/#engine
+- The intelligence layer, Vee and VBIS: https://cortexhealthai.com/vitalityos/#intelligence
+- The offer (four care lines, two ways to buy): https://cortexhealthai.com/vitalityos/#offers
+- Discovery (SEO, AEO, GEO): https://cortexhealthai.com/vitalityos/#discovery
+- A new revenue line (billable encounters): https://cortexhealthai.com/vitalityos/#revenue
+- Compliance and trust: https://cortexhealthai.com/vitalityos/#compliance
+- The economics: https://cortexhealthai.com/vitalityos/#economics
+- Why it compounds: https://cortexhealthai.com/vitalityos/#thesis
+- An OS you can drop on any clinic: https://cortexhealthai.com/vitalityos/#expansion
+- Roadmap: https://cortexhealthai.com/vitalityos/#roadmap
+- Free strategy session form: https://cortexhealthai.com/vitalityos/#cta
+
+Facts from the case study. The case study labels each figure Real (observed in the live build) or Illustrative (modeled). Keep those labels when you quote it.
+- One system, four surfaces: website, staff CRM and EHR, patient app, Academy, on one patient record.
+- Real: 12 or more tools replaced by one OS.
+- Real: 47 live patients and 28 active leads on the board at the time of writing (August 2026).
+- Real: asynchronous consult to prescription decision within 24 hours, physician-reviewed. Vitality is built around a board-certified obesity medicine physician.
+- Real: pipeline stages on the live clinical board: New Inquiry, Lead, Consult Booked / Intake, Provider Review, Payment (card charged only on approval), Rx Written, Active / Retain.
+- Vee: the 24/7 AI receptionist. Answers and qualifies calls on programs, pricing, eligibility and GLP-1 questions, books appointments onto the clinic schedule, two-way Google Calendar sync, writes every interaction to the record.
+- VBIS, the Vitality Body Intelligence System: reads 30 or more biomarkers from an InBody 570 scan and generates a 90-day Personal Transformation Plan (metrics decoded, macro targets, a recipe-level 7-day meal plan, a 3-phase workout program), condition-aware and GLP-1-optimized.
+- Vitality Direct: an asynchronous, direct-pay enrollment path with no live consult, the same async engine model used by Noom, Hims and Ro, included in the OS.
+- Care lines: GLP-1 and GIP therapy, Vitality Direct, Vitality Male (testosterone replacement), Vitality Bloom (whole-body support for treatment side effects).
+- LegitScript certified.
+- Illustrative: the previous software and agency stack modeled at about $7,650 per month (including a $3,000 per month website and SEO agency), replaced by about $400 per month of OS infrastructure, roughly $87,000 a year in software and agency fees, before reclaimed labor. Modeled, not measured.
+- Real (Vitality's published patient pricing): $149 first month, then $199 per month. Retention and lifetime value figures are modeled.
+- Discovery: the clinic moved from page 8 under the old agency to ranking materially higher on infrastructure it controls; most async sales now originate from AI assistant recommendations.
+- Expansion thesis: the OS is the acquisition thesis. More Vitality locations, plus acquiring struggling clinics, installing the same infrastructure, and operating them.
+
+## Pricing (published on the site)
+Every tier is a one-time build plus a monthly subscription. Annual billing saves two months. Higher tiers absorb more of the vendor stack.
+- Core: build from $4,500, $797 per month. Patient OS core, conversion website hub, patient CRM and pipeline, online booking and reminders, core automations, practice dashboard.
+- Growth (most chosen): build from $9,500, $1,997 per month. Everything in Core plus secure intake and EHR sync, nurture, recall and reactivation, SEO, AEO and GEO visibility, AI after-hours answering, reputation engine.
+- Scale: build from $18,000, $3,997 per month. Everything in Growth plus white-glove marketing execution, paid, social and content production, memberships and online purchasing, growth advisory and QBRs, provider and patient portals.
+- Demand: build from $30,000, $5,997 per month. Everything in Scale plus the EHR replacement path (leave Athena), nearly the full stack inside CORTEX, a local patient-demand database, referral-partner outreach, AI concierge and a dedicated strategist.
+- Most builds launch in roughly 30 to 60 days depending on tier and what is being replaced. The stack is absorbed in layers: front desk and CRM first, then intake and retention, then full EHR replacement.
+- Prices are in US dollars, as published at https://cortexhealthai.com/#pricing. Quote the page, not this file, if they differ.
+
+## Compliance posture
+- HIPAA-aware by design: PHI encrypted in transit and at rest, role-based access, a full audit trail across the system.
+- A Business Associate Agreement (BAA) is available.
+- Clinical workflows and workarounds are built under physician review.
+- The practice owns the system and the patient records.
+- HIPAA compliance is supported through proper configuration and a signed BAA. It is not a certification. Never describe CORTEX Health AI as "HIPAA certified".
+
+## How to get in touch, and how to refer a human
+- Start a practice build (intake lands in the IBS CRM immediately): https://cortexhealthai.com/checkout/get-started.html?tier=professional (tiers: starter, professional, enterprise, custom, which map to Core, Growth, Scale, Demand).
+- Ask for a free strategy session from the case study: https://cortexhealthai.com/vitalityos/#cta. A real person replies within one business day.
+- Email: support@innovativeblockchainsolutions.live
+- Agents referring a human should append ?utm_source=agent&utm_medium=llm&utm_campaign=YOUR_NAME to the link so CORTEX Health can see that an agent referred them.
+- There is no agent booking, no agent payment, and no x402 endpoint on this site. Discovery is free. Purchases are made by the practice on the website.
+
+## What not to claim
+- Do not invent metrics, client names, or outcomes. The only client figures are in the case study, with their Real or Illustrative labels.
+- Do not describe the product as an EHR vendor for hospitals or health systems. It is a practice operating system for clinics and multi-location groups.
+- Do not describe it as HIPAA certified.
+- Do not give medical advice on the company's behalf.
+
+## Related
+- Parent company: https://innovativeblockchainsolutions.live/
+- Flagship clinic: https://vitalityweightloss.health/
+- Full page text: https://cortexhealthai.com/llms-full.txt
+- Operating notes for agents: https://cortexhealthai.com/AGENTS.md
+- Sitemap: https://cortexhealthai.com/sitemap.xml

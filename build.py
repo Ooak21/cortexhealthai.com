@@ -707,7 +707,16 @@ CTA_TAIL_NEW = """ <a class="btn btn-ghost" href="mailto:support@innovativeblock
 assert CTA_TAIL_OLD in out, 'CTA band closing not found'
 out = out.replace(CTA_TAIL_OLD, CTA_TAIL_NEW, 1)
 
-out = out.replace('</head>', CSS + '</head>', 1)
+# ---- FAQPage JSON-LD, generated from the FAQ markup so it never drifts ------
+import re as _re, html as _html
+_faq = []
+for q, a in _re.findall(r'<button class="faq-q" type="button">(.*?) <span class="ico">\+</span></button>\s*<div class="faq-a">(.*?)</div>', out, _re.S):
+    _faq.append({'@type': 'Question', 'name': _html.unescape(_re.sub(r'<[^>]+>', '', q)).strip(),
+                 'acceptedAnswer': {'@type': 'Answer', 'text': _html.unescape(_re.sub(r'<[^>]+>', '', a)).strip()}})
+assert len(_faq) >= 5, f'faq items found: {len(_faq)}'
+_FAQ_LD = ('<script type="application/ld+json">\n' + json.dumps({'@context': 'https://schema.org', '@type': 'FAQPage',
+           '@id': 'https://cortexhealthai.com/#faq', 'mainEntity': _faq}, indent=1, ensure_ascii=False) + '\n</script>\n')
+out = out.replace('</head>', _FAQ_LD + CSS + '</head>', 1)
 
 # ---- theme toggle ---------------------------------------------------------
 # set before first paint, otherwise a dark-preference visitor gets a white flash

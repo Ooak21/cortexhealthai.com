@@ -8,6 +8,7 @@
 <meta name="author" content="Innovative Blockchain Solutions">
 <meta name="theme-color" content="#000000">
 <link rel="canonical" href="https://cortexhealthai.com/">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <link rel="apple-touch-icon" href="/assets/favicon.png">
 
@@ -32,12 +33,42 @@
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
+ "@graph": [
+ {
+ "@type": "Organization",
+ "@id": "https://cortexhealthai.com/#organization",
+ "name": "CORTEX Health AI",
+ "url": "https://cortexhealthai.com/",
+ "logo": "https://cortexhealthai.com/assets/ibs-hex-square.png",
+ "description": "Medical-grade practice operating system for clinics: patient CRM, secure intake, EHR integration or replacement, AI voice and after-hours capture, retention, and provider and patient portals. Built by Innovative Blockchain Solutions in Las Vegas and running in production at Vitality Weight Loss.",
+ "email": "support@innovativeblockchainsolutions.live",
+ "address": { "@type": "PostalAddress", "addressLocality": "Las Vegas", "addressRegion": "NV", "addressCountry": "US" },
+ "areaServed": "US",
+ "parentOrganization": { "@type": "Organization", "name": "Innovative Blockchain Solutions", "url": "https://innovativeblockchainsolutions.live/" },
+ "sameAs": [ "https://www.linkedin.com/company/innovative-blockchain-solutions" ],
+ "knowsAbout": [ "medical practice management software", "patient CRM", "EHR replacement", "HIPAA-aware patient intake", "medical weight loss clinic operations", "obesity medicine practice software" ]
+ },
+ {
+ "@type": "WebSite",
+ "@id": "https://cortexhealthai.com/#website",
+ "url": "https://cortexhealthai.com/",
+ "name": "CORTEX Health AI",
+ "publisher": { "@id": "https://cortexhealthai.com/#organization" },
+ "inLanguage": "en-US"
+ }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
  "@type": "SoftwareApplication",
  "name": "CORTEX Health AI",
  "applicationCategory": "HealthApplication",
  "operatingSystem": "Web",
  "description": "Medical-grade practice OS that replaces clinic vendor stacks including CRM, intake, voice, and at full tier the EHR.",
  "url": "https://cortexhealthai.com",
+ "publisher": { "@id": "https://cortexhealthai.com/#organization" },
  "provider": {
  "@type": "Organization",
  "name": "Innovative Blockchain Solutions",
@@ -53,6 +84,7 @@
 }
 </script>
 
+<script src="/ga.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -972,6 +1004,71 @@ footer {
  }
 }
 </style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "@id": "https://cortexhealthai.com/#faq",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Do you work with regulated healthcare?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Provider portals, patient intake, EHR path, and administrative automation built to support HIPAA compliance, with a Business Associate Agreement available and PHI encrypted in transit and at rest. Clinical workflows are built under medical scrutiny, not marketing fiction."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Will it integrate with our EHR?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes when that is the right move. CORTEX Health can sync with Athena and other PM stacks so patients, appointments, and intake stay aligned. Integrations are often the pain point, so we plan the exit as carefully as the connect."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Can you replace Athena and the rest of our stack?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "That is the Demand path. Highest tier is full vendor replacement, including the EHR, so nearly all clinic operations live inside CORTEX Health. Vitality is the live example of facilitating that separation, with compliant workarounds wherever a SaaS product blocked us."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How fast can the engine go live?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Most builds launch in roughly 30 to 60 days depending on tier and what we are replacing. You see it come together in stages, not a black box until the end."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Do we have to rip out everything on day one?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. We absorb the stack in layers: front desk and CRM first, then intake and retention, then full EHR replacement when you are ready. Fewer logins at each step. More of the clinic confined inside our ecosystem over time."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Multi-location: does this scale?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Yes. Scale and Demand tiers run a unified patient pipeline, standardized intake, and a single dashboard across sites, while each location keeps its own schedule and providers."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Who owns the system and the patient data?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "You do. We build the engine around your practice. Patient data stays yours. We operate as a compliant partner under a signed BAA."
+   }
+  }
+ ]
+}
+</script>
 
 <script>
 (function(){try{

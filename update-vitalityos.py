@@ -59,7 +59,88 @@ HEAD_META = '''<meta name="viewport" content="width=device-width, initial-scale=
 <meta name="twitter:title" content="Vitality OS Case Study | CORTEX Health AI">
 <meta name="twitter:description" content="One spine, four surfaces, zero seams. The operating system behind Vitality, and what it does to a clinic\'s margins.">
 <meta name="twitter:image" content="https://cortexhealthai.com/assets/og-vitalityos.png">
-<meta name="twitter:image:alt" content="Vitality OS case study by CORTEX Health AI.">'''
+<meta name="twitter:image:alt" content="Vitality OS case study by CORTEX Health AI.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<script src="/ga.js" defer></script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Article",
+   "@id": "https://cortexhealthai.com/vitalityos/#article",
+   "headline": "Vitality OS: from struggling startup to a finely-tuned machine",
+   "alternativeHeadline": "How Vitality Weight Loss replaced a dozen disconnected subscriptions with one physician-led operating system",
+   "description": "Case study of a physician-led medical weight loss practice in Las Vegas that replaced a marketing CRM, a separate EHR, a chat app, a phone system, a scheduler, a course platform, form builders and e-fax with one owned operating system built by CORTEX Health AI: website, staff CRM and EHR, patient app and Academy on a single patient record, plus Vee, the AI receptionist, and VBIS, the body intelligence system.",
+   "url": "https://cortexhealthai.com/vitalityos/",
+   "mainEntityOfPage": "https://cortexhealthai.com/vitalityos/",
+   "image": "https://cortexhealthai.com/assets/og-vitalityos.png",
+   "datePublished": "2026-08-12",
+   "dateModified": "2026-09-11",
+   "inLanguage": "en-US",
+   "author": {
+    "@type": "Organization",
+    "name": "Innovative Blockchain Solutions",
+    "url": "https://innovativeblockchainsolutions.live/"
+   },
+   "publisher": {
+    "@id": "https://cortexhealthai.com/#organization"
+   },
+   "isPartOf": {
+    "@id": "https://cortexhealthai.com/#website"
+   },
+   "about": [
+    {
+     "@type": "MedicalBusiness",
+     "name": "Vitality Weight Loss",
+     "url": "https://vitalityweightloss.health/",
+     "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Las Vegas",
+      "addressRegion": "NV",
+      "addressCountry": "US"
+     }
+    },
+    {
+     "@type": "SoftwareApplication",
+     "name": "CORTEX Health AI",
+     "url": "https://cortexhealthai.com/",
+     "applicationCategory": "HealthApplication",
+     "operatingSystem": "Web"
+    }
+   ],
+   "keywords": [
+    "medical weight loss clinic software",
+    "obesity medicine practice operating system",
+    "clinic EHR replacement",
+    "patient CRM for clinics",
+    "GLP-1 clinic operations",
+    "AI receptionist for medical practices",
+    "vendor stack consolidation",
+    "HIPAA-aware practice management"
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "@id": "https://cortexhealthai.com/vitalityos/#breadcrumb",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "CORTEX Health AI",
+     "item": "https://cortexhealthai.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Vitality OS case study",
+     "item": "https://cortexhealthai.com/vitalityos/"
+    }
+   ]
+  }
+ ]
+}
+</script>'''
 
 FORM_JS = '''  /* Strategy-session form. Posts to the IBS CRM (ibs_prospects) via the
      cortexhealth-lead edge function, tagged source=cortexhealth_vitalityos so
@@ -108,6 +189,7 @@ FORM_JS = '''  /* Strategy-session form. Posts to the IBS CRM (ibs_prospects) vi
       f.reset();
       btn.style.display = \'none\';
       sent.style.display = \'block\';
+      if (window.cxTrack) cxTrack(\'generate_lead\', { lead_source: \'vitalityos_strategy_session\' });
     })
     .catch(function(ex){
       /* A rejected fetch is a TypeError and its message ("Failed to fetch") is
@@ -243,6 +325,8 @@ FORBIDDEN = [
 REQUIRED = [
     ('cortexhealth-lead', 'form is not wired to the CRM'),
     ('og:image', 'no share card'),
+    ('/ga.js', 'GA4 loader missing'),
+    ('"@type": "Article"', 'Article schema missing'),
     ('class="brand" href="/"', 'brand does not link home'),
     ('flow flow-3', 'expansion grid will not collapse on phones'),
     ('minmax(0,1fr)', 'grid tracks cannot shrink'),

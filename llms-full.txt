@@ -1,0 +1,1324 @@
+# CORTEX Health AI, full site text
+Generated 2026-09-11 from the published pages. The fact file is https://cortexhealthai.com/llms.txt.
+
+
+
+---
+
+SOURCE: https://cortexhealthai.com/
+
+CORTEX Health AI | Medical-Grade CRM, Patient OS & EHR Replacement by IBS
+
+CORTEX Health AI
+by Innovative Blockchain Solutions
+
+Platform
+Deployments
+Case study
+Compliance
+Pricing
+Request build
+
+# Your entire practice. One login.
+
+Replace complexity with Cortex.
+
+CORTEX Health AI replaces the SaaS vendors clinics stitch together: CRM, intake, voice, scheduling, retention, and at full tier the EHR itself.
+We integrate when we must. We build around blockers when vendors fail. Everything stays legal, compliant, and under medical scrutiny.
+
+Request a practice build
+See what we replace
+
+More patients
+Less hassle
+
+Less admin
+More time
+
+Better care
+Happier patients
+
+Stronger practice
+Higher revenue
+
+Simplify. Automate. Grow. All in one platform.
+
+## Already running in real practices
+
+Not a concept deck. Live builds across weight loss, wellness, massage, and multi-site clinical operations. Vitality is the flagship path: separate from the vendor maze and keep the clinic inside one ecosystem.
+
+Weight loss
+
+### Vitality
+
+Full practice OS. Facilitating separation from Athena and the SaaS stack, with compliant workarounds wherever a vendor blocked the clinic.
+
+Academies
+
+### Vitality Academies
+
+Multi-track patient engine and the reference Practice OS sandbox for the full CORTEX Health build.
+
+Massage
+
+### Arron Lakey
+
+Book ownership, scheduling, and client retention for a premium practice without a pile of disconnected tools.
+
+Relationships
+
+### Rekindle
+
+Counseling intake, continuum of care, and private client management inside one controlled system.
+
+Spa tech
+
+### Body Language
+
+TouchPrint capture plus spa enterprise CRM so guest preference lives with the business, not a single therapist.
+
+Read the Vitality build, end to end
+The stack it replaced, the architecture that replaced it, and what that did to the clinic.
+
+The real blocker
+
+##
+The clinic does not need more logins. It needs fewer vendors.
+
+EHR. Scheduler. Intake forms. Email. Texts. Phone. Website. Reviews. Payments. Ads. Spreadsheets.
+Every product owns a sliver. Your staff becomes the integration layer. When one SaaS blocks a workflow, the whole practice stalls.
+
+- 01 Integrations are the pain point. They break, gate features, and force double entry between desk, chart, and outreach.
+
+- 02 After-hours inquiries die. Intake is still a clipboard. Follow-up depends on who is at the desk.
+
+- 03 Growth rides on referrals, walk-ins, and luck until the stack is one controlled pipeline.
+
+### A dozen systems. None share a patient.
+
+CORTEX Health is built to absorb these pieces over time so nearly everything the clinic runs lives inside one ecosystem.
+
+## Replace the stack. Keep the clinic.
+
+We build the OS clinics actually run on. Integrate with what you still need. Replace what slows you down. At the highest tier we replace the full vendor set, including the EHR.
+
+### Patient CRM
+
+Pipeline from inquiry to active membership. Source attribution, stage history, and staff ownership without spreadsheet theater.
+
+### Secure intake
+
+Digital forms and consents completed before the visit. Encrypted in transit and at rest. No re-keying into the chart.
+
+### Integrate or replace EHR
+
+Two-way sync when you stay on Athena or another PM. Full EHR path when you are ready to leave. Demand tier is the clean break.
+
+### Voice and after-hours
+
+AI answers, qualifies, and books when the desk is dark. Missed calls become pipeline, not voicemail black holes.
+
+### Retention engine
+
+Reminders, recalls, no-show recovery, reactivations, and membership renewals that run without a sticky note culture.
+
+### Provider and patient portals
+
+Secure surfaces for clinical staff and patients: records, messaging, scheduling, and forms in one controlled environment.
+
+##
+Integrations were the pain. So we learned what to own.
+
+With Vitality we are facilitating separation from Athena and the rest of the vendor maze.
+When a SaaS product blocked a workflow, we built the workaround legally and compliantly, under strict medical scrutiny.
+That is how we know what a clinic can remove, what must stay, and how to confine almost 100% of operations inside CORTEX Health.
+
+Vitality provider view, running in CORTEX Health. De-identified demo tenant.
+
+A
+
+### Integrate first when it is safer
+
+Wire the live stack so revenue and care keep moving while we map the real friction.
+
+B
+
+### Bypass when a vendor blocks care
+
+Compliant workarounds under physician review. No shady hacks. No hostage features.
+
+C
+
+### Replace until the stack is ours
+
+Highest tier replaces the full set, including EHR. The clinic keeps the data and the control plane.
+
+New-patient path
+
+## Inquiry in. Chart ready. Desk free.
+
+When an inquiry lands, the system already knows the next step.
+
+### Capture
+
+Call, form, DM, or missed ring logged in under 90 seconds.
+
+### Book
+
+AI or staff books the consult against live capacity.
+
+### Intake
+
+Secure digital forms and consent before they walk in.
+
+### Chart
+
+Patient and chart ready in CORTEX or synced out. Clinician sees a complete record.
+
+### Retain
+
+Reminders, reviews, recalls, reactivation always on.
+
+Regulated healthcare
+
+## We work in healthcare the right way.
+
+Provider portals, patient intake, EHR path, and administrative automation built to support HIPAA from day one, not bolted on later. Medical scrutiny is part of the build, not a slide in a deck.
+
+### HIPAA-aware by design
+
+PHI encrypted in transit and at rest. Role-based access. Full audit trail across the system.
+
+### BAA available
+
+We sign a Business Associate Agreement and operate as a compliant partner for protected health information.
+
+### Physician-reviewed builds
+
+Workarounds and clinical workflows go under physician review so we ship what a real practice can defend.
+
+### You own the data
+
+Your practice owns the system and the patient records. We are infrastructure, not a hostage platform.
+
+HIPAA compliance is supported through proper configuration and a signed BAA. Not a legal guarantee of certification.
+
+Verticals
+
+## One engine. Tuned to your practice type.
+
+Medspas
+Weight loss & GLP
+Aesthetics & injectables
+Wellness & IV therapy
+Massage & spa
+Counseling
+Dental & ortho
+Concierge & primary care
+Mental health
+Multi-location groups
+
+Intelligence layer
+
+Frontier models for reasoning on intake, voice, and workflow. Same stack that powers IBS financial and logistics systems.
+
+xAI
+
+Anthropic
+
+Pricing
+
+## One build. Then one subscription.
+
+Architect and launch the practice OS once, then a flat monthly that runs it and grows with you. Higher tiers absorb more of the vendor stack. Demand is the full ecosystem path, including EHR replacement.
+
+Monthly
+Annual (save 2 mo)
+
+Core
+
+Replace the front-of-house stack first.
+
+Build from $4,500
+
+$797 /mo
+
+Billed monthly
+
+- Patient OS core
+
+- Conversion website hub
+
+- Patient CRM and pipeline
+
+- Online booking and reminders
+
+- Core automations
+
+- Practice dashboard
+
+Start with Core
+
+Most chosen
+
+Growth
+
+Intake, retention, and EHR handoff.
+
+Build from $9,500
+
+$1,997 /mo
+
+Billed monthly
+
+- Everything in Core
+
+- Secure intake and EHR sync
+
+- Nurture, recall, and reactivation
+
+- SEO, AEO, and GEO visibility
+
+- AI after-hours answering
+
+- Reputation engine
+
+Start with Growth
+
+Scale
+
+Marketing team inside the OS.
+
+Build from $18,000
+
+$3,997 /mo
+
+Billed monthly
+
+- Everything in Growth
+
+- White-glove marketing execution
+
+- Paid, social, and content production
+
+- Memberships and online purchasing
+
+- Growth advisory and QBRs
+
+- Provider and patient portals
+
+Start with Scale
+
+Demand
+
+Full vendor replacement, including EHR.
+
+Build from $30,000
+
+$5,997 /mo
+
+Billed monthly
+
+- Everything in Scale
+
+- EHR replacement path (leave Athena)
+
+- Nearly full stack inside CORTEX
+
+- Local patient-demand database
+
+- Referral-partner outreach
+
+- AI concierge and dedicated strategist
+
+Start with Demand
+
+Every tier is one-time build plus monthly. Checkout intake feeds the IBS CRM ops queue immediately.
+
+Straight answers
+
+## What practice owners ask first
+
+Do you work with regulated healthcare? +
+Yes. Provider portals, patient intake, EHR path, and administrative automation built to support HIPAA compliance, with a Business Associate Agreement available and PHI encrypted in transit and at rest. Clinical workflows are built under medical scrutiny, not marketing fiction.
+
+Will it integrate with our EHR? +
+Yes when that is the right move. CORTEX Health can sync with Athena and other PM stacks so patients, appointments, and intake stay aligned. Integrations are often the pain point, so we plan the exit as carefully as the connect.
+
+Can you replace Athena and the rest of our stack? +
+That is the Demand path. Highest tier is full vendor replacement, including the EHR, so nearly all clinic operations live inside CORTEX Health. Vitality is the live example of facilitating that separation, with compliant workarounds wherever a SaaS product blocked us.
+
+How fast can the engine go live? +
+Most builds launch in roughly 30 to 60 days depending on tier and what we are replacing. You see it come together in stages, not a black box until the end.
+
+Do we have to rip out everything on day one? +
+No. We absorb the stack in layers: front desk and CRM first, then intake and retention, then full EHR replacement when you are ready. Fewer logins at each step. More of the clinic confined inside our ecosystem over time.
+
+Multi-location: does this scale? +
+Yes. Scale and Demand tiers run a unified patient pipeline, standardized intake, and a single dashboard across sites, while each location keeps its own schedule and providers.
+
+Who owns the system and the patient data? +
+You do. We build the engine around your practice. Patient data stays yours. We operate as a compliant partner under a signed BAA.
+
+## Map your stack. Plan the replacement.
+
+Tell us your practice type, every vendor you pay today, and whether you want to integrate or exit the EHR.
+Intake lands in the IBS CRM the same minute you submit. Ops scopes the build, invoice, and deployment path.
+
+Start intake
+Email the team
+
+CORTEX Health AI
+
+Innovative Blockchain Solutions
+
+IBS platform
+LinkedIn
+support@…
+
+© Innovative Blockchain Solutions, Las Vegas, NV
+Medical-grade CRM, patient OS, EHR replacement path. cortexhealthai.com
+
+
+---
+
+SOURCE: https://cortexhealthai.com/vitalityos/
+
+Vitality OS Case Study | CORTEX Health AI
+
+Vitality OS CORTEX Health AI
+
+Summary
+Before
+Architecture
+Engine
+Offers
+Product
+Economics
+Moat
+
+Get Started
+
+Operating-System Case Study
+
+# From struggling startup to a finely-tuned machine.
+
+How Vitality Weight Loss replaced a sprawl of disconnected subscriptions, a CRM here, an EHR there, a chat app, a billing tool, a course platform, with one physician-led operating system that acquires the patient, treats them, bills them, and keeps them, all on rails it owns end-to-end.
+
+One system · four surfaces
+Website → CRM → EHR → App → Academy
+HIPAA / PHI-aware · async consults · payments
+Vee · 24/7 AI receptionist
+VBIS · 30+ biomarkers to one plan
+LegitScript certified
+
+12+
+Tools replaced by 1 OS
+
+47 / 28
+Live patients / active leads Real
+
+$7.6k /mo
+SaaS + agency stack eliminated Illustrative
+
+24 hr
+Async consult → Rx decision Real
+
+Executive Summary
+
+## The clinic didn't need another tool. It needed to stop being a tool-user.
+
+Vitality Weight Loss is a physician-led medical weight-loss practice in Las Vegas, built around board-certified obesity-medicine physician Peter W. DeBry, MD (NPI 1831137991). It sells GLP-1 and GIP therapy, testosterone replacement for men (Vitality Male), and whole-body support to manage treatment side effects (Vitality Bloom), every path physician-reviewed within 24 hours.
+
+Like most modern clinics, it began life stitched together from other people's software: a marketing CRM to catch leads, a separate EHR to chart and bill, a chat app for the team, a phone system, a scheduler, a course tool for education, form builders, e-fax, spreadsheets to glue it all together. Every tool was a subscription. Every subscription was a silo. And every silo needed a human to swivel-chair data from one to the next, the lead that never made it into the chart, the payment that never tied back to the visit, the follow-up nobody owned.
+
+The response was not to buy a better CRM. It was to collapse the whole stack into a single operating system that the clinic owns and controls, one spine that runs from the first ad click all the way to the patient's monthly refill and their next lesson in the Academy.
+
+The result is Vitality OS : one login for staff that is simultaneously a CRM, an EHR, a billing engine, an insurance clearinghouse, an AI scribe, and a marketing automation platform; one app for patients that carries their Personal Transformation Plan, medications, and progress; and one Academy that turns the doctor's care plan into completable coursework. The website isn't a brochure, it's the top of the funnel, wired directly into the same system, with each offer and CTA dropping a structured lead onto the clinical board.
+
+This document reconstructs that build as a business case: the fragmented "before," the unified "after," the revenue engine that connects them, the compliance posture that makes it legal, and the unit economics that make it compound. Figures marked Illustrative are modeled estimates; figures marked Real are observed in the live product.
+
+The Before · A Stack of Silos
+
+## A dozen logins, a $3k agency, and the gaps in between.
+
+A typical growth-stage clinic runs a stack like this. Each box is a monthly bill, a separate password, and a place data goes to get stuck. The real cost isn't the subscriptions, it's the swivel-chair labor and the leads, charges, and follow-ups that fall through the seams.
+
+Raptor Media
+Website + "SEO" agency
+~$3,000/mo
+
+HubSpot
+Marketing / Sales CRM
+~$800-1,600/mo
+
+athenaOne
+EHR + billing / RCM
+~$1,000+/mo
+
+Slack
+Team chat
+~$90/mo
+
+PatientPop
+Practice growth / reviews
+~$500/mo
+
+Stripe / terminal
+Payments (untied to chart)
+fees + glue
+
+Calendly / Acuity
+Scheduling
+~$50/mo
+
+RingCentral / Twilio
+Phone & SMS
+~$150/mo
+
+Kajabi / Teachable
+Course platform
+~$150/mo
+
+Jotform
+Intake forms
+~$40/mo
+
+Clearinghouse / e-fax
+Insurance claims, PA faxes
+~$150/mo
+
+Apollo / Outreach
+Outbound sequences
+~$300/mo
+
+Google Sheets
+The glue holding it together
+human hours
+
+⚠️
+The seams are where revenue dies. A lead in HubSpot is invisible to athenaOne. A payment in Stripe doesn't know which visit it paid for. A course completion in Kajabi never reaches the chart. Someone has to carry it by hand, or it doesn't move. Illustrative total: over $7,500/mo across a 7.5-plus tool stack (including a $3,000/mo agency site), plus 15 to 25 staff hours a week of manual reconciliation.
+
+The Architecture
+
+## One spine, four surfaces, zero seams.
+
+Toggle the two states. The "before" is a cloud of tools a human stands in the middle of. The "after" is a single data spine with four purpose-built surfaces on top, the same patient record everywhere, so nothing is re-typed and nothing is lost.
+
+◻ Before · fragmented
+◼ After · unified OS
+
+A dozen-plus disconnected systems, and a person in the middle of all of them.
+
+👤 Staff the human integration
+
+Raptor site
+HubSpot
+athenaOne
+Slack
+PatientPop
+Stripe
+Calendly
+Twilio
+Kajabi
+Jotform
+Clearinghouse
+Apollo
+Sheets
+
+↑ every one of these arrows is a human copying data by hand, no system talks to the next ↑
+
+Vitality OS · one patient record, one spine
+
+▲ shared data layer: leads · charts · payments · plans · tasks ▲
+
+🌐
+Acquisition Site
+Offers & CTAs that drop structured leads onto the board
+
+🩺
+Staff CRM + EHR
+Pipeline, charting, billing, clearinghouse, AI scribe
+
+📱
+Patient App
+Transformation Plan, meds, progress, messaging
+
+🎓
+Academy LMS
+Doctor's plan becomes completable curriculum & tasks
+
+The Revenue Engine
+
+## One patient journey, tracked on rails the clinic owns.
+
+These are the actual stages on the live clinical board. A lead enters from a website offer, moves through an asynchronous consult into the physician's queue, gets paid and prescribed, then lands in the app and Academy for retention, every hop logged to the same record. Real pipeline stages
+
+🌐 01
+
+#### New Inquiry
+Offer/CTA on the site captures a structured lead, GLP-1, Bloom, Medicare Bridge.
+
+📞 02
+
+#### Lead
+Click-to-call & compose-email from the card; owner assigned; temperature tracked.
+
+📝 03
+
+#### Consult Booked / Intake
+Async questionnaire + labs/InBody flow straight into the chart.
+
+🩺 04
+
+#### Provider Review
+Dr. DeBry validates history & eligibility in the EHR queue.
+
+💳 05
+
+#### Payment
+Card charged only on approval; subscription created against the record.
+
+℞ 06
+
+#### Rx Written
+Rx decision logged; 503A pharmacy fulfilment; superbill coded from the note.
+
+🎓 07
+
+#### Active · Retain
+Patient app + Academy tasks & follow-ups drive adherence and re-billing.
+
+Because every stage writes to one record, the business questions answer themselves: which offer produced this patient, how long from click to cash, what's the refill rate, which follow-up is overdue. In the old stack those answers lived in five tools and reconciled in none.
+
+The Intelligence Layer
+
+## Two engines the old stack could never run: Vee and VBIS.
+
+Consolidation removed the busywork. What it unlocked is harder to buy off a shelf: an AI front desk that never sleeps, and a body-intelligence engine that turns a single scan into a 90-day protocol. Both run on the same record as everything else.
+
+⚙️
+
+### Vee, the AI receptionist Live
+
+"Someone always answers." Now that someone is Vee.
+
+- Answers and qualifies calls 24/7 on programs, pricing, eligibility and GLP-1 questions, in the clinic's own voice.
+
+- Books appointments straight onto the clinic schedule, with no staff in the loop.
+
+- Two-way Google Calendar sync , so provider calendars link directly and availability is always real.
+
+- Writes every interaction to the record , so a call becomes a logged, owned touchpoint on the patient card.
+
+🧬
+
+### VBIS, the Vitality Body Intelligence System Live
+
+The hyper-personalized meal and workout maker.
+
+- Starts with the InBody 570 scan the clinic runs on-site, uploaded straight into the patient record.
+
+- Reads 30+ biomarkers : visceral fat, body-fat %, skeletal muscle, segmental lean and fat, ECW/TBW, BMR and more.
+
+- Generates a 90-day Personal Transformation Plan : every metric decoded, macro targets, a full recipe-level 7-day meal plan, and a 3-phase progressive workout program.
+
+- Condition-aware : GLP-1-optimized, allergy and diet compliant, injury-safe, down to the individual exercise substitution.
+
+- VitalitySync pulls biomarkers and activity from any wearable, Apple Watch or Fitbit, into the Vitality Thrive app, so heart rate, sleep and daily movement strengthen the plan in real time.
+
+#### 🖥️ Front-desk check-in kiosk
+
+A kiosk at the front desk wired to the EHR and CRM. When a patient walks in, it logs the visit to their record automatically: arrival, attendance, and the start of a billable encounter.
+
+#### 📼 Everything is recorded
+
+Every check-in, every workout, every lesson and every task a patient completes writes back to the same chart, in the app and in Vitality Academies. Adherence stops being anecdotal and becomes data.
+
+#### 🩻 Scan to plan to protocol
+
+The InBody scan feeds VBIS, VBIS builds the plan, Dr. DeBry assigns the tasks, the app and Academy track completion, and the record captures all of it. One closed loop.
+
+The Product · Recreated Surfaces
+
+## What "one system" actually looks like.
+
+Faithful recreations of the live product, captured from the working build. Switch between the surfaces and the plan engine. It is always the same patient, same record , viewed through a different lens.
+
+🗂 Staff · Pipeline Board
+👤 CRM · Patient Record
+🩺 EHR · Chart & Billing
+📱 Patient · My Vitality
+🎓 My Academy
+🧬 VBIS · Transformation Plan
+
+vitalityweightloss.health/crm.html
+
+Vitality Live
+
+Patients Partners CRM Provider Patient Portal Templates Sequences Admin
+
+New Inquiry 10
+
+Betty Swaner
+No program
+FRED 20d
+
+Larry Bowls
+Medicare GLP-1 Bridge
+NEW 32d
+
+Jill Chenicek
+No program
+NEW 47d
+
+Lead 13
+
+Gabriella Tellez
+Coaching
+FRED cold
+
+Brenda Robles
+Coaching
+FRED cold
+
+Dean Lee
+Coaching
+FRED 21h
+
+Consult Booked 3
+
+Mar Gonzalez
+GLP-1
+cold
+
+Alex Rivera
+GLP-1
+cold
+
+Ana Trujillo
+Coaching
+cold
+
+Intake / Labs 11
+
+Jason DeCosta
+clinic
+cold
+
+Vanesa Mazon
+clinic
+FRED 1d
+
+Jay Reynolds
+clinic
+FRED 1d
+
+Provider Review 0
+
+queue clear
+
+Rx Written 3
+
+Olita Odesho
+GLP-1 · Tirzepatide
+cold
+
+Amber Suprunowski
+GLP-1 · Tirzepatide
+5d
+
+Active 6
+
+Emmalee Akin
+GLP-1 · Semaglutide
+$199/mo
+
+Delinah Gaitan
+GLP-1
+active
+
+E
+Emmalee Akin
+Rx written · GLP-1 · age 27
+
+✎ Note
+✉ Email
+☎ Call
+✓ Task
+
+Key information
+
+Email akinemmalee@yahoo.com
+
+Phone 626 641 4417
+
+DOB 01/05/1999
+
+Program GLP-1 · Semaglutide
+
+Patient since Jun 25
+
+Activity · All · Notes 2 · Emails · Calls · Tasks 1
+
+Dr. Peter DeBry
+
+Rx decision: APPROVED . Medication: Compounded Semaglutide.
+
+Jul 2026 · 25d ago
+
+agent:async-intake auto
+
+Async GLP-1 enrollment completed and paid. athenaOne id n/a. Program: sema.
+
+Jun 2026 · 47d ago
+
+＋ Add a note…
+
+Subscription & billing
+
+$199 /mo active
+
+Next bill Aug 26, 2026 · 2 cycles billed
+
+Program
+
+GLP-1 · Semaglutide
+
+Open tasks
+
+Set injection dose, Patient #9CQDM
+
+Emmalee Akin · Provider view · Rx written
+
+Plans
+
+⬆ Import InBody scan
+
+⚙ Care preferences
+
+✨ Generate Transformation Plan
+
+℞ Med reference
+
+Voice · AI scribe
+
+🎙 Discuss with Vee
+
+👤 Patient review
+
+🩺 Dictate Consult
+
+Summary Notes Documents Billing
+
+Vitals
+Segment-by-segment via InBody 570 import
+
+Allergies
+Mark known / no known allergies
+
+Problem list
+Obesity, metabolic markers
+
+Medications
+Compounded Semaglutide · titration
+
+Billing · insurance clearinghouse
+
+Insurance / coverage
+Self-pay until a card is added · ＋ Add coverage
+
+Coded visits (superbills)
+Code a visit from a signed note · Fee schedule
+
+My Vitality
+Plan Meds Progress Messages Documents
+
+🎯 Personal Transformation Plan
+
+Physician-built from your InBody scan, labs & goals, the whole plan in your pocket.
+
+Week 6 of 16
+
+💊 Medication
+
+GLP-1 · Semaglutide. Next dose Thursday. Refill ships from 503A pharmacy.
+
+- Current dose & titration schedule
+
+- Side-effect check-in
+
+- One-tap refill request
+
+📈 Progress
+
+Weight, body-fat & lean mass trend from each InBody re-scan.
+
+−14 lbs · lean mass protected
+
+🍽 Meal Plan
+
+Macros tuned to composition; condition-aware for GLP-1 side effects.
+
+💬 Care-team Messaging
+
+Secure thread to the clinic. "24/7 someone always answers."
+
+📲 Vitality Thrive app
+
+Scan the QR in your profile to carry your plan and meal plans. VitalitySync streams your Apple Watch or Fitbit data straight in.
+
+My Academy · Vitality Academies
+Curriculum Missions Rewards
+
+🎓 Personal Health Degree
+
+Dr. DeBry's signature curriculum, you become the expert on your own body.
+
+- Metabolism 101 ✓
+
+- Food, Actually ✓
+
+- Habits That Stick, in progress
+
+- Graduation, locked
+
+✅ Weekly Missions , assigned by your care team
+
+Log 3 protein-forward meals
+
+Complete side-effect check-in
+
+Read: "Food, Actually" ch. 2
+
+Book InBody re-scan
+
+📚 Vitality PhD Reading List
+
+30 physician-curated books, one a month, built into your program.
+
+🧠 IBT, podcasts & counseling
+
+Intensive behavioral therapy lectures, podcasts, and 1:1 counseling sessions, delivered right in the portal.
+
+"The learning home for every Vitality patient. This program supports, and does not replace, the guidance of your care team." Every completed mission writes back to the chart.
+
+VBIS
+Vitality Body Intelligence System
+
+Personal Transformation Plan
+
+Personal Transformation Plan
+
+### Luis Ocadiz
+
+90-day Vitality program · Home / Dumbbell + Band (GLP-1 Muscle-Preserving) · Vitality Academies
+
+Metrics at a glance 13 body-composition metrics analyzed
+
+4 on track 4 to watch 3 priority
+
+Visceral Fat
+Level 12
+Primary target. GLP-1 preferentially mobilizes visceral fat; expect a 20 to 30% drop over 90 days.
+
+Skeletal Muscle
+89 lb
+Your metabolic engine. Preserve every pound with 150 to 160g protein daily plus resistance training.
+
+Body Fat
+57 lb · 28%
+Target a 30 lb fat loss to roughly 14 to 15% body fat, a healthy sustainable level.
+
+ECW/TBW
+0.382
+Green light. Good cellular hydration and minimal inflammation at baseline.
+
+Daily macro balance
+
+1650 KCAL/DAY
+
+Protein 140g · 35%
+
+Carbs 140g · 35%
+
+Fat 55g · 31%
+
+GLP-1 Optimized Kosher Lactose-Free Peanut-Free
+
+Calories across week 1
+
+M
+
+T
+
+W
+
+T
+
+F
+
+S
+
+S
+
+Daily target 1650 kcal · 100 oz water · 30g fiber
+
+Sample meal · Monday
+
+Breakfast. Scrambled eggs, kosher turkey sausage and asparagus · 280 kcal · 28g P
+
+Lunch. Grilled chicken, quinoa and broccoli · 380 kcal · 42g P
+
+Dinner. Kosher beef stir-fry and brown rice · 340 kcal · 28g P
+
+Workout · 3-phase progressive
+
+Foundation · wk 1 to 2 movement quality, joint prep
+
+Progression · wk 3 to 5 progressive overload, unilateral
+
+Acceleration · wk 6 to 10 metabolic circuits, fat burn
+
+Every exercise carries sets x reps, an easier and harder option, and a neck and knee safety note.
+
+Recreated from an actual 36-page VBIS plan (patient: Luis Ocadiz). Assigned tasks flow to the app and Academy, and completion writes back to the chart.
+
+Recreated from the live build for illustration. Patient names shown are from the working demo environment.
+
+The Offer
+
+## MBA guidance widened the value prop by maximizing what the provider can offer.
+
+The clinic is no longer a single-product GLP-1 shop. By mapping the full range of what the physician can safely deliver, the offer widened to four care lines and two ways to buy: join a full program, or take Vitality Direct for async, direct-pay access, so more of every lead converts, whether they want the full transformation or just the medication.
+
+⚡
+
+### Vitality Direct Async · no consult
+
+A direct-pay path for patients who do not want to join a program and just want the meds. Enrollment is fully asynchronous, with no live consult required.
+
+This is the same async engine Noom, Hims and Ro are built on. Three separate developers quoted it at over $25,000 to build. It is included in this OS, and it is HIPAA compliant and PHI-aware, with payment secured and the releases, disclaimers and consents generated and sent to the patient the moment they submit.
+
+💉
+
+### GLP-1 and GIP therapy
+
+The core medical weight-loss line: semaglutide and tirzepatide, physician-reviewed, with the full four-pillar program for patients who want the whole transformation.
+
+💪
+
+### Vitality Male TRT
+
+Testosterone replacement therapy for men, opening an entirely new patient population and revenue line on the same rails.
+
+🌱
+
+### Vitality Bloom
+
+Built to mitigate the side effects of GLP-1 and testosterone therapy and make sure whole-body health is addressed, not just the number on the scale.
+
+#### 🎓 Vitality Academies, more than coursework
+
+The Academies portal also carries IBT (intensive behavioral therapy) lectures, podcasts, and counseling sessions for patients, so the behavioral and educational pillars are delivered inside the same system that tracks the medical plan, and each of those touchpoints is a documented, potentially billable encounter.
+
+Distribution · Discovery
+
+## Found by the machines, not just the search bar.
+
+The old agency, Raptor Media, billed $3,000 a month and promised a pile of "SEO hours." It left the site stranded on page 8. Rebuilt on the OS, discovery is no longer a line item someone rents; it is a system the clinic owns, tuned for how people actually search now.
+
+🔎
+
+### Classic SEO, finally working
+
+From page 8 under the agency to ranking materially higher today, on infrastructure the clinic controls rather than a monthly retainer with nothing to show for it.
+
+🤖
+
+### AEO + GEO, the new front page
+
+The site is optimized for Answer Engine Optimization and Generative Engine Optimization, so AI assistants can read, trust, and cite Vitality when they answer a question, not just index a keyword.
+
+💬
+
+### ChatGPT is the new referral
+
+Ask ChatGPT for the most trusted GLP-1 provider in Las Vegas and Vitality comes up. Most async sales now originate from those AI recommendations, a channel the old agency could not even see.
+
+This is the compounding version of distribution control: the same owned site that drops structured leads onto the clinical board is also the asset that AI engines cite, so acquisition gets cheaper and more defensible every month the machines learn the brand.
+
+A New Revenue Line Where applicable
+
+## Every touchpoint is care, and where covered, a compliant billable encounter.
+
+This is the part a fragmented stack simply cannot do. Because the plan, the tasks, the check-ins and every clinician interaction all land on one charted record, they can be coded into superbills and submitted through the built-in clearinghouse , turning the care team's day into an insurance-billable revenue stream on top of cash subscriptions.
+
+Dr. DeBry assigns tasks and follow-ups, the patient completes them across the app and Academy, and dietitians, counselors, an LCSW, a fitness coordinator and the physician each contribute documented encounters. Each qualifying encounter can attach the appropriate CPT or E&M code, generate a superbill from the signed note, and route to the clearinghouse, wherever the patient's plan is a covered benefit.
+
+Illustrative code families a program like this can legitimately support when clinically indicated and documented:
+
+- E&M visits , physician and NP evaluation and management
+
+- Medical nutrition therapy by a registered dietitian (97802 to 97804)
+
+- Behavioral and counseling sessions, LCSW and health-behavior codes (96156, 96158+)
+
+- Intensive obesity counseling (G0447)
+
+- Remote monitoring and care management , where clinical criteria are met
+
+CPT codes are illustrative. Actual coding, coverage and medical necessity are determined case by case by the clinician and payer. Nothing here is coding or billing advice.
+
+### Why it compounds Illustrative
+
+One enrolled patient, two revenue engines:
+
+| Line | Contribution
+
+| Cash subscription (self-pay) | $149 to $199/mo
+
+| Physician E&M (when covered) | billable
+
+| Dietitian nutrition therapy | billable
+
+| Behavioral and LCSW sessions | billable
+
+| Obesity counseling and monitoring | billable
+
+| Blended revenue per patient | rises materially
+
+The same care that drives adherence also produces documented, codeable encounters, so retention and reimbursement rise together on infrastructure the clinic already owns.
+
+Included in the build
+
+#### 📈 MBA-led growth
+Hands-on MBA consulting to stand up the marketing engine: offers, funnels, channel and broker outreach, and acquisition instrumentation wired into the board.
+
+#### ✅ LegitScript and licensure
+Full LegitScript certification and alignment of every NPI, DEA license, and GLP-1 and controlled-substance workflow, reflected in the EHR.
+
+#### 🔀 Stack migration
+Consolidation off HubSpot, athenaOne, Slack and the rest onto one owned operating system, with data carried across.
+
+#### 🔧 Ongoing self-healing ops
+AI loops that keep the system healthy and compliant, so the clinic runs the machine instead of maintaining it.
+
+Compliance & Trust
+
+## Built for PHI from the first line, not bolted on after.
+
+An OS that holds charts, prescriptions and payments only works if it is defensible. Vitality's model keeps a licensed physician at every decision point and treats compliance as an architectural constraint, not a checkbox.
+
+#### 🔐 HIPAA / PHI posture
+One record, role-based access (staff CRM vs. patient portal are separate authenticated surfaces, a patient login only sees a chart once it's clinically linked). Every action is attributed and timestamped on the record, creating a native audit trail instead of scattered logs across a dozen vendors.
+
+#### 🩺 Physician oversight on async
+Asynchronous consults are structured questionnaires + labs/photos that route into a Provider Review queue. Peter DeBry, MD (board-certified obesity medicine, NPI 1831137991) validates eligibility before any prescription, the "reviewed within 24 hours" promise is a real gate, not marketing.
+
+#### 💳 Payment tied to approval
+For lines like Bloom, "your card isn't charged until you're approved." Payment and subscription creation happen against the patient record on physician approval, so money and medicine are never decoupled, and revenue reconciles to a visit by design.
+
+#### 🧾 Self-pay + insurance
+Transparent self-pay pricing ($149 first month → $199/mo, no dose surcharge) plus a real clearinghouse layer: coverage on file, coded visits/superbills generated from signed notes, and a fee schedule, the billing surface an EHR/RCM vendor used to own.
+
+#### 📍 Scope-aware by state
+Services are explicitly limited to patients located in Nevada, with a Nevada-licensed physician. The system encodes scope-of-practice as a rule, containing regulatory risk while multi-state expansion is staged deliberately.
+
+#### 🤖 AI with a human in the loop
+The AI scribe (Dictate Consult), automations (async-intake), and plan generation accelerate clinicians, but clinical decisions, Rx, and coding remain physician-owned actions logged to the chart.
+
+#### ✅ LegitScript certified
+The clinic carries full LegitScript certification. Every NPI and DEA license, and all GLP-1 and controlled-substance sale and marketing, is verified as compliant, legal and above board, and is reflected properly inside the EHR. It is the credential that lets the clinic advertise and prescribe on major platforms without friction.
+
+#### 🧱 Segregation of duties
+Role-based access is enforced by design. Front-desk, admin, billing and clinical roles each see only what their job requires, and certain admins explicitly cannot open provider or clinical views, separating operational access from PHI-heavy clinical data.
+
+#### 📥 One-click audit report
+The admin console generates and downloads a complete audit report on demand: who accessed what, when, and what changed. If an audit ever comes, the evidence is a button rather than a fire drill.
+
+#### 🔧 Self-healing AI loops
+Automated loops continuously monitor the ecosystem, catch and self-fix bugs, and hold the system in a known-good, compliant state. Reliability runs as an always-on background process rather than a maintenance scramble.
+
+The Economics Illustrative model
+
+## Consolidation is a margin event. Ownership is a compounding one.
+
+Two things happen when the stack collapses into an owned OS: the software line item shrinks, and the labor wasted on swivel-chair reconciliation is reclaimed. The numbers below are a modeled illustration to show the shape of the win, swap in Vitality's actuals to finalize.
+
+### Software stack, before → after
+
+| Line | Before /mo | After /mo
+
+| Website + "SEO" agency (Raptor Media) Real | $3,000 | $0
+
+| Marketing/Sales CRM (HubSpot) | $1,200 | $0
+
+| EHR + RCM (athenaOne) | $1,000 | $0
+
+| Growth / reviews (PatientPop) | $500 | $0
+
+| Outbound (Apollo/Outreach) | $300 | $0
+
+| Course platform (Kajabi) | $150 | $0
+
+| Clearinghouse / e-fax | $150 | $0
+
+| Team chat (Slack) | $90 | $0
+
+| Phone/SMS, scheduling, forms | $390 | $0
+
+| Reputation, analytics, e-sign, glue | $870 | $0
+
+| Vitality OS infra (hosting, model/API, Stripe base) | $0 | $400
+
+| Software total | $7,650 | $400
+
+| Monthly software saved | | ≈ $7,250
+
+≈ $87k/yr in software and agency fees alone, before counting reclaimed labor. Illustrative
+
+### Where the value shows up
+
+Software /yr -$87k
+
+saved
+
+Reclaimed labor ~20 hrs/wk
+
+/wk
+
+Lead → cash time days → ≤24h
+
+faster
+
+Leak in the seams → ~0
+
+closed
+
+### Per-patient unit economics Illustrative
+
+| Metric | Value
+
+| Entry price (first month) Real | $149
+
+| Recurring (then) Real | $199/mo
+
+| Avg. retention (modeled) | ~8 mo
+
+| Gross LTV (modeled) | ~$1,540
+
+| OS-enabled contribution | higher, per patient
+
+Illustrative figures are directional and rounded, based on public list pricing for the named tools and Vitality's own published patient pricing. They exist to demonstrate the mechanics of the consolidation; the finance team's actuals should replace them before external circulation.
+
+"We didn't buy a better clinic stack. We stopped renting one, and built the operating system the clinic runs on."
+
+On the thesis behind Vitality OS
+
+The MBA View · Why It Compounds
+
+## The moat isn't the software. It's owning the whole loop.
+
+Any competitor can license HubSpot and athenaOne. None of them own the seam between acquisition, care, billing and education. Vitality does, and that ownership creates four reinforcing advantages.
+
+01 · VERTICAL INTEGRATION
+
+#### One record, no vendor tax
+Collapsing a dozen-plus vendors into an owned spine removes both the subscription tax and the integration tax. Margin that used to leave the business as SaaS fees and reconciliation labor now stays in it, and every new feature ships against data the clinic already controls.
+
+02 · DATA COMPOUNDING
+
+#### Every interaction trains the machine
+Leads, charts, payments, plans, adherence and course completions live in one schema. That unified dataset is what makes the async-intake automation, transformation-plan generation and AI scribe possible, and each is a capability a fragmented competitor structurally cannot assemble.
+
+03 · SWITCHING COSTS
+
+#### The patient's whole life-with-Vitality is inside
+Plan, meds, progress, messaging, coursework and community all live in one app and Academy. Retention stops being a discount war and becomes a function of embeddedness, the reason "Active" patients re-bill month after month.
+
+04 · DISTRIBUTION CONTROL
+
+#### The funnel is a feature, not a rented channel
+Because the website's offers and CTAs drop structured leads straight onto the clinical board, the clinic owns its acquisition instrumentation end-to-end, it can launch a new offer (Medicare Bridge, Vitality Male, Bloom) and see it convert to cash on the same record, same day.
+
+Where This Goes
+
+## An operating system you can drop on any clinic.
+
+The OS is not just how Vitality runs. It is the acquisition thesis. After this year, the plan is to open several more Vitality Weight Loss locations and, alongside them, to buy struggling clinics, install this same infrastructure, fix their operations, and run them under Vitality ownership. A margin-and-retention machine you can deploy on demand becomes a repeatable M&A play.
+
+01 · Acquire
+
+#### Buy an underperforming clinic
+
+Target struggling practices burning cash on a fragmented stack and thin retention.
+
+02 · Deploy the OS
+
+#### Drop our infrastructure on it
+
+Rip out the subscriptions, install the CRM, EHR, billing, app, Academy, Vee and VBIS. One system, day one.
+
+03 · Operate & own
+
+#### Fix it, run it, keep the upside
+
+Lift margins and retention with the same playbook, then hold the improved asset. Repeat.
+
+Every clinic already runs on software. The ones that struggle are renting a dozen tools that do not talk to each other. Vitality's edge is a proven OS plus the team, MBA-led growth, LegitScript-clean compliance, and the AI operations, to make an acquired clinic look like Vitality within weeks.
+
+Roadmap
+
+## The machine is running. Here's what's next on the same spine.
+
+Live now
+
+#### CRM + EHR + billing
+Pipeline board, merged patient record, clinical chart, superbills/clearinghouse, AI scribe, subscription billing, async intake.
+
+Live now
+
+#### Patient app + Academy
+Personal Transformation Plan, meds, progress, messaging; curriculum with care-team missions writing back to the chart.
+
+Shipping soon
+
+#### ePrescribe
+Close the last external hop, electronic prescribing directly from the Rx decision, inside the same record.
+
+Expanding
+
+#### New locations & acquisitions
+More Vitality locations projected after this year, plus a roll-up: acquire struggling clinics, drop the OS on them, and operate them under ownership.
+
+CortexHealthAI Cortex Health AI
+
+## Curious how we can help rebuild your clinic?
+
+Ask for a free strategy session. Tell us about your practice and we will show you what one owned operating system could do for your margins, your compliance, and your patients.
+
+First name
+
+Last name
+
+Email
+
+Phone number
+
+Clinic / practice name
+
+What would you like to fix or build?
+
+Website
+
+Request my free strategy session
+Goes straight to our team. We reply within one business day.
+
+Thanks, we have it. A real person reviews it and reaches out to schedule, usually within one business day. Check your inbox for the confirmation.
+
+CortexHealthAI.com, we build and deploy the operating system behind Vitality, and we can drop it on your clinic too.
+
+About this case study. Prepared as an all-purpose narrative for investor, partner, and internal audiences. Product details, pricing, pipeline stages, and features labeled Real were observed directly in the live Vitality Weight Loss / Vitality Academies build (public site, staff CRM/EHR, patient portal, and Academy). Figures labeled Illustrative are modeled estimates based on public list pricing for the named third-party tools and Vitality's published patient pricing; they demonstrate mechanics and should be replaced with the finance team's actuals before external circulation. Vitality Weight Loss is a physician-led practice; Peter W. DeBry, MD (NPI 1831137991) provides medical oversight. Services are provided only to patients located in Nevada. This document is not medical, legal, or investment advice.
+
+© 2026 Vitality Weight Loss · Vitality Academies. Case study compiled August 12, 2026.

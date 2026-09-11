@@ -8,6 +8,7 @@
 <meta name="author" content="Innovative Blockchain Solutions">
 <meta name="theme-color" content="#000000">
 <link rel="canonical" href="https://cortexhealthai.com/">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
 <link rel="apple-touch-icon" href="/assets/favicon.png">
 
@@ -32,12 +33,42 @@
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
+ "@graph": [
+ {
+ "@type": "Organization",
+ "@id": "https://cortexhealthai.com/#organization",
+ "name": "CORTEX Health AI",
+ "url": "https://cortexhealthai.com/",
+ "logo": "https://cortexhealthai.com/assets/ibs-hex-square.png",
+ "description": "Medical-grade practice operating system for clinics: patient CRM, secure intake, EHR integration or replacement, AI voice and after-hours capture, retention, and provider and patient portals. Built by Innovative Blockchain Solutions in Las Vegas and running in production at Vitality Weight Loss.",
+ "email": "support@innovativeblockchainsolutions.live",
+ "address": { "@type": "PostalAddress", "addressLocality": "Las Vegas", "addressRegion": "NV", "addressCountry": "US" },
+ "areaServed": "US",
+ "parentOrganization": { "@type": "Organization", "name": "Innovative Blockchain Solutions", "url": "https://innovativeblockchainsolutions.live/" },
+ "sameAs": [ "https://www.linkedin.com/company/innovative-blockchain-solutions" ],
+ "knowsAbout": [ "medical practice management software", "patient CRM", "EHR replacement", "HIPAA-aware patient intake", "medical weight loss clinic operations", "obesity medicine practice software" ]
+ },
+ {
+ "@type": "WebSite",
+ "@id": "https://cortexhealthai.com/#website",
+ "url": "https://cortexhealthai.com/",
+ "name": "CORTEX Health AI",
+ "publisher": { "@id": "https://cortexhealthai.com/#organization" },
+ "inLanguage": "en-US"
+ }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
  "@type": "SoftwareApplication",
  "name": "CORTEX Health AI",
  "applicationCategory": "HealthApplication",
  "operatingSystem": "Web",
  "description": "Medical-grade practice OS that replaces clinic vendor stacks including CRM, intake, voice, and at full tier the EHR.",
  "url": "https://cortexhealthai.com",
+ "publisher": { "@id": "https://cortexhealthai.com/#organization" },
  "provider": {
  "@type": "Organization",
  "name": "Innovative Blockchain Solutions",
@@ -53,6 +84,7 @@
 }
 </script>
 
+<script src="/ga.js" defer></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">

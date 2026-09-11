@@ -7,6 +7,9 @@
 <meta name="description" content="Start your CORTEX Health AI practice build. Intake feeds the IBS CRM ops queue.">
 <meta name="theme-color" content="#000000">
 <link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="canonical" href="https://cortexhealthai.com/checkout/get-started.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<script src="/ga.js" defer></script>
 <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="https://js.stripe.com/v3/"></script>
 <style>
@@ -399,6 +402,7 @@ form.addEventListener('submit', async (e) => {
  throw new Error(data.error || 'Submission failed. Please try again or email us.');
  }
  // Lead saved in the IBS CRM. Continue to secure Stripe payment for the build fee.
+ if (window.cxTrack) cxTrack('generate_lead', { lead_source: 'checkout_intake', tier: intakeTier, product: product });
  const path = payload.has_assets ? 'a' : 'b';
  await startPayment(data.client_id || '', { company, email, path });
  } catch (err) {
