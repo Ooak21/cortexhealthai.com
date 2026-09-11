@@ -378,6 +378,7 @@ support@…
 
 © Innovative Blockchain Solutions, Las Vegas, NV
 Medical-grade CRM, patient OS, EHR replacement path. cortexhealthai.com
+For AI agents and LLMs: /llms.txt · /llms-full.txt · /AGENTS.md · Vitality OS case study
 
 
 ---
