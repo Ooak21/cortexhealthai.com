@@ -1,3 +1,19 @@
+# Checkpoint: 2026-09-11 analytics and discoverability
+
+GA4 tag live on every page (`/ga.js`, G-2SV6CF0HTB), verified with real
+collect hits headless. Search Console property `https://cortexhealthai.com/`
+verified by HTML file, sitemap submitted, indexing requested for `/` and
+`/vitalityos/`. IndexNow submitted (api.indexnow.org 202, bing 200).
+Answer-engine layer: `robots.txt`, `llms.txt`, `llms-full.txt`, `AGENTS.md`,
+schema on both pages. Backlinks placed the same day from
+vitalityweightloss.health, vitalityacademies.health, cortexibs.com and the
+apex footer, all pointing at `/vitalityos/` or the home page.
+
+Open: star `generate_lead` as a key event in GA once it shows under
+Admin > Events > Recent events (the UI only stars events it has seen).
+
+---
+
 # Checkpoint — 2026-07-27 landing page rebuild
 
 State of `cortexhealthai.com` at commit `910d653`. Live on GitHub Pages.

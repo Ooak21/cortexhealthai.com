@@ -24,6 +24,18 @@ Live and in-flight deployments include **Vitality** (flagship EHR separation pat
   source page) or `build.py` (the transforms), then run `python3 build.py`.
   See `CHECKPOINT.md`.
 - Intake → Supabase edge function `ibs-checkout-intake` → `ibs_clients` + ops tasks (IBS CRM)
+- **Analytics:** GA4 via `/ga.js` (measurement id in one place, property
+  `cortexhealthai.com`, stream Main). Pages call `cxTrack(name, params)`.
+  Key events: `generate_lead` (case-study form, checkout intake), `intake_paid`.
+- **Search + answer engines:** `robots.txt` (search and AI crawlers named),
+  `llms.txt` (fact file, hand-written), `llms-full.txt` (generated: run
+  `python3 tools/llms-full.py` after any copy change), `AGENTS.md`,
+  `sitemap.xml` (bump `lastmod`), IndexNow key `61e48ed37c6a39b5086109964d1b7907.txt`
+  (resubmit the URL list to api.indexnow.org after content changes).
+  **`googlea9fb254986faa7df.html` is the Search Console verification. Never delete it.**
+- Schema: Organization + WebSite + SoftwareApplication in `index.src.html`;
+  FAQPage is generated from the FAQ markup by `build.py`; Article +
+  BreadcrumbList on `/vitalityos/` (carried by `update-vitalityos.py`).
 - Same design language as cortexibs.com / logistixibs.com / innovativeblockchainsolutions.live (`DESIGN.md`)
 
 ## Local
